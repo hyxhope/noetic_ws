@@ -1,0 +1,5903 @@
+2024-06-11  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update CHANGELOG.md for 3.7.0
+
+	release: Update package.xml version to 3.7.0
+
+	Merge pull request #478 from jcarpent/topic/devel
+	Expose QR solvers from Eigen
+
+	test: test Eigen::CompleteOrthogonalDecomposition
+
+	decompositions: expose CompleteOrthogonalDecomposition
+
+	test/decompositions: test ColPivHouseholderQR
+
+	decompositions: expose ColPivHouseholderQR
+
+	test/decompositions: add test for FullPivHouseholderQR
+
+	decompositions: expose FullPivHouseholderQR
+
+2024-06-11  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+	    pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate (#479)
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.4.7 → v0.4.8](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.7...v0.4.8)
+	- [github.com/pre-commit/mirrors-clang-format: v18.1.5 → v18.1.6](https://github.com/pre-commit/mirrors-clang-format/compare/v18.1.5...v18.1.6)
+
+2024-06-10  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	decompositions: fix
+
+	changelog: fix
+
+	changelog: sync
+
+	test/decompositions: add test for HouseholderQR
+
+	decompositions: add HouseholderQR
+
+	decompositions: fix guards
+
+	Merge pull request #477 from jcarpent/topic/devel
+	Add id() helper 
+
+	cmake: fix eigenpy test
+
+2024-06-10  Justin Carpentier  <justin.carpentier@inria.fr>
+	    Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	core: fix copyright
+
+2024-06-10  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	changelog: sync
+
+	test: add test of id helper
+
+	all: add id() helper to all exposed classes
+
+	core: add id helper
+
+2024-06-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #476 from jcarpent/topic/devel
+	Update cmake + minor clean
+
+	all: remove license from files
+
+	cmake: sync submodule
+
+2024-06-05  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	release: Update CHANGELOG.md for 3.6.0
+
+	release: Update package.xml version to 3.6.0
+
+	Merge pull request #475 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-06-03  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.4.5 → v0.4.7](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.5...v0.4.7)
+
+2024-05-29  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Merge pull request #473 from wxmerkt/topic/fix-warnings
+	Fix warnings to address unstable build on buildfarm
+
+	unittest: Fix conversion warning
+
+2024-05-29  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2024-05-29  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	unittest: Explicitly extract shared_ptr to avoid ambiguity
+	between shared_ptr& and shared_ptr
+
+	deprecation-policy: Add default case
+	This should never be triggered.
+
+2024-05-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #474 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-05-27  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.4.4 → v0.4.5](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.4...v0.4.5)
+
+2024-05-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #472 from wxmerkt/topic/fix-ros-ci
+	Fix ROS CI & compilation
+
+2024-05-25  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	[CI] Use full commit SHA to avoid github workflow error
+
+2024-05-25  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	package.xml: Add dependency on scipy
+
+	[CI] Fix ROS-CI and add Jazzy
+
+2024-05-22  Wilson  <wilson.jallet@polytechnique.org>
+
+	Merge pull request #471 from ManifoldFR/topic/fix-register-symbolic-link
+	Add unit test multiple_registration, fix register_symbolic_link_to_registered_type() for multiple successive registrations
+
+2024-05-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	changelog: fix link
+
+	changelog: sync
+
+2024-05-22  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	registration.hpp : apply suggested incref() fix
+
+	Add unit test multiple_registration
+	+ currently produces a wonderful 36 errors :D
+
+2024-05-13  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #470 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-05-13  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.4.3 → v0.4.4](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.3...v0.4.4)
+	- [github.com/pre-commit/mirrors-clang-format: v18.1.4 → v18.1.5](https://github.com/pre-commit/mirrors-clang-format/compare/v18.1.4...v18.1.5)
+
+2024-05-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #468 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-05-06  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.4.2 → v0.4.3](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.2...v0.4.3)
+
+2024-05-05  Wilson  <wilson.jallet@polytechnique.org>
+
+	Merge pull request #466 from ManifoldFR/topic/add-deprecation-call-policy
+	Add deprecation call policy. Backport from pinocchio bindings.
+
+2024-05-04  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	deprecation-policy.hpp : fix undefined symbol in some cases
+
+2024-05-04  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	changelog: fix location
+
+	ci/linux: add --output-on-failure
+
+2024-05-03  ManifoldFR  <wilson.jallet@polytechnique.org>
+	    Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Add deprecated_function/deprecated_member child classes
+	+ shortcut for different default messages
+
+2024-05-03  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Add changelog entry
+
+	Add deprecation call policy
+
+2024-05-03  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #465 from stephane-caron/feature/contributing
+	Add Contributing section to the readme
+
+2024-05-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #467 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-04-29  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.4.1 → v0.4.2](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.1...v0.4.2)
+
+2024-04-26  Stéphane Caron  <stephane.caron@inria.fr>
+
+	Add Contributing section to the readme
+	Closes https://github.com/stack-of-tasks/eigenpy/issues/460
+
+2024-04-25  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	release: Update CHANGELOG.md for 3.5.1
+
+	release: Update package.xml version to 3.5.1
+
+	Merge pull request #464 from jcarpent/topic/boost
+	Fix missing include for boost >= 1.85
+
+2024-04-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	changelog: sync
+
+	core: fix missing include for Boost >= 1.85
+
+	cmake: sync submodule
+
+	Merge pull request #462 from jorisv/topic/fix_eigen_tofrom_py
+	Fix EigenToPy/EigenFromPy on Windows
+
+2024-04-24  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: Decrease parallel build number to avoid exploding CI memory
+
+2024-04-24  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2024-04-24  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	changelog: Add changelog entry
+
+	core: Remove a CL dedicated hack to allow EigenToPy and EigenFromPy specialization on Windows
+	core: Use same namespace scope
+
+2024-04-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #461 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-04-22  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.3.7 → v0.4.1](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.7...v0.4.1)
+	- [github.com/pre-commit/mirrors-clang-format: v18.1.3 → v18.1.4](https://github.com/pre-commit/mirrors-clang-format/compare/v18.1.3...v18.1.4)
+
+2024-04-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #459 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-04-15  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.3.5 → v0.3.7](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.5...v0.3.7)
+
+2024-04-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update CHANGELOG.md for 3.5.0
+
+	release: Update package.xml version to 3.5.0
+
+	Merge pull request #458 from jcarpent/topic/cmake
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+2024-04-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #457 from jorisv/topic/improve_windows_support
+	Improve windows support
+
+2024-04-09  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: Setup back ccache
+
+	ci: Use the right environment file for MacOS 14
+
+	ci: Increase parallel build
+
+	ci: Use same conda environment for Mac/Linux/Windows
+
+	ci: Try not to call vcvarsall.bat (should be call by cxx-compiler activation script
+
+	ci: Use the right cache key on Windows
+
+	python: Add a hack in windows_dll_manager.py to find eigenpy.dll
+
+	pre-commit: Deactivate ruff outdated-version-block check
+
+	changelog: Add changelog entry
+
+2024-04-09  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2024-04-09  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: Don't install eigenpy to test it in Windows
+
+	win-support: Generate binary in standard directory to avoid issue on Windows
+
+	Merge pull request #456 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-04-09  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v18.1.2 → v18.1.3](https://github.com/pre-commit/mirrors-clang-format/compare/v18.1.2...v18.1.3)
+	- [github.com/pre-commit/pre-commit-hooks: v4.5.0 → v4.6.0](https://github.com/pre-commit/pre-commit-hooks/compare/v4.5.0...v4.6.0)
+
+2024-04-09  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Merge pull request #455 from jorisv/topic/fix_int_conversion
+	Fix int conversion
+
+2024-04-09  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	int_conv: Fix specific scalar conversion and support more scalar type
+	int_conv: Add more integer type binding and add a unit test
+
+	changelog: Add changelog entry
+
+	int_conv: Manage int8_t and long on Windows
+
+	int_conv: Try to use stdint type to manage long hack on windows
+
+	int_conv: Fix Windows build
+
+	int_conv: Try to fix Mac build and don't compile twice 64 bits integer on Mac and Windows
+
+	int_conv: Don't use np.dtypes (introduced in numpy 1.25)
+
+	int_conv: Test long and int difference in unit test
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+
+	for more information, see https://pre-commit.ci
+
+	int_conv: Expose long in MacOS
+
+	int_conv: Don't use deprecated type np.intc
+
+	int_conv: Fix Mac build
+
+	int_conv: Remove int128 (doesn't exists)
+
+	int_conv: Disable long long test on Mac because the type is not reachable
+
+	int_conv: Begin to work on promotion
+
+	int_conv: Add unsigned promotion
+
+	int_conv: Manage complex promotion
+
+	int_conv: Split matrix binding to avoid memory issue while building
+
+	int_conv: Split decomposition binding to avoid memory issue while building
+
+	int_conv: Use clongdouble instead of complex256
+
+	int_conv: Avoid out of heap space error on Windows
+
+	int_conv: Fix test for Mac
+
+	int_conv: Try to manage longlong on Mac and int on Windows, also reduce compile time
+
+	int_conv: Manage Windows and Mac int and long long when casting
+
+	int_conv: Allow scalar to complex conversion
+
+	int_conv: Manage casting from numpy to eigen with tensor
+
+	int_conv: Add changelog entries
+
+	int_conv: Remove conversion from Eigen to Numpy
+
+	int_conv: Add reference to this PR
+
+	int_conv: Activate SciPy tests by default
+
+2024-04-03  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #454 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-04-01  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.3.4 → v0.3.5](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.4...v0.3.5)
+
+2024-03-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #453 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-03-25  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.3.3 → v0.3.4](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.3...v0.3.4)
+	- [github.com/pre-commit/mirrors-clang-format: v18.1.1 → v18.1.2](https://github.com/pre-commit/mirrors-clang-format/compare/v18.1.1...v18.1.2)
+
+2024-03-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #450 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-03-18  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.3.2 → v0.3.3](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.2...v0.3.3)
+
+2024-03-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #448 from duburcqa/numpy_2
+	Add support of numpy 2.0.0b1
+
+2024-03-15  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2024-03-15  Alexis Duburcq  <alexis.duburcq@gmail.com>
+
+	Add support of numpy 2.0.0b1
+
+2024-03-13  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #446 from nim65s/cmake
+	CMake details
+
+	Merge pull request #445 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-03-13  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	changelog
+
+	CMake: allow use of installed jrl-cmakemodule
+
+	CMake: headers are installed in CMAKE_INSTALL_INCLUDEDIR
+	which might not be "include"
+
+2024-03-13  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/astral-sh/ruff-pre-commit: v0.2.2 → v0.3.2](https://github.com/astral-sh/ruff-pre-commit/compare/v0.2.2...v0.3.2)
+	- [github.com/pre-commit/mirrors-clang-format: v17.0.6 → v18.1.1](https://github.com/pre-commit/mirrors-clang-format/compare/v17.0.6...v18.1.1)
+
+2024-02-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #443 from jcarpent/topic/sparse
+	Fix function signature
+
+2024-02-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	changelog: sync
+
+	test: fix function signature
+
+2024-02-27  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Merge pull request #442 from jorisv/topic/fix_cpp11_build
+	Don't build std_unique_ptr unit tests in C++11
+
+	changelog: Add changelog entry
+
+	cmake: Don't build std_unique_ptr unit tests if CMAKE_CXX_STANDARD is under 14
+
+2024-02-26  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	release: Update CHANGELOG.md for 3.4.0
+
+	release: Update package.xml version to 3.4.0
+
+2024-02-20  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	linters: add ruff & isort (#441)
+	* sort pre-commit file
+	
+	* pre-commit: add ruff
+	
+	* pre-commit run -a
+	
+	* manual ruff fixes
+	
+	* README: add ruff badge
+	
+	* pre-commit: add isort
+	
+	* pre-commit run -a
+	
+	* ignore previous commit in blames
+	
+	* add changelog entry
+	
+	* replace black & isort by ruff
+	
+	* ruff: more linters
+	
+	* clean config files
+	
+	* pre-commit run -a
+	
+	* ignore previous commit in blames
+	
+	* fix NPY002
+	
+	ref. https://numpy.org/doc/stable/reference/random/legacy.html
+	
+	* remove useless code
+	
+	* fix dtype conversion
+
+2024-02-17  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #438 from jcarpent/topic/sparse
+	Expose Simplicial{LLT,LDLT}
+
+2024-02-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+	cmake: use find_package for weak dependency
+
+	test: add comment
+
+	test/sparse: add test for Accelerate
+
+	sparse/Accelerate: add doc
+
+	sparse: add exposition of Accelerate solvers
+	This feature is only available on Mac OS X, with Eigen >= 3.4.90
+
+	test: fix compatibility with Eigen 3.4.90
+
+	core: comment useless typedef
+
+	sparse: add SparseSolverBaseVisitor
+
+	cmake: remove message display
+
+	cmake: sync submodule
+
+	sparse: add try/catch for detecting if Scipy is installed
+
+	cmake: export find external macros for Cholmod
+
+	test: fix test name
+
+	changelog: update
+
+	python: don't expose is_approx for sparse types
+
+	test/decompositions: add test for sparse Cholmod Cholesky
+
+	test/sparse: add test for Simplicial{LLT,LDLT}
+
+	decompositions: fix to int default type for PermutationMatrix
+
+	sparse: add sparse Cholesky decompositions with Cholmod
+
+	module: extend is_approx for sparse matrices
+
+	core: add typedef for SparseMatrix
+
+	utils: fix is_approx for complex types
+
+	utils: extend API of is_approx for SparseMatrix
+
+	cmake: make build_tests depend on PYWRAP
+
+	cmake: sync submodule
+
+	cmake: start integration of CHOLMOD
+
+	cmake: sync submodule
+
+	decompositions: use EigenBaseVisitor for Eigen::{LLT,LDLT}
+
+	decompositions: expose PermutationMatrix
+
+	decompositions/cholesky: expose permutations
+
+	decompositions: use EigenBaseVisitor
+
+	core: add EigenBaseVisitor
+
+	decompositions: expose Simplicial{LLT,LDLT}
+
+	Merge pull request #439 from jcarpent/topic/devel
+	Activate build on macos-14-arm64
+
+	readme: update afiliation
+
+2024-02-13  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ci/conda: fix for ARM64
+	See https://github.com/conda-incubator/setup-miniconda/issues/312 for details
+
+	ci/osx: fix os name
+
+	ci: remove useless builds
+
+	ci: activate build on macos-14-arm64
+
+	Merge pull request #440 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-02-12  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 24.1.1 → 24.2.0](https://github.com/psf/black/compare/24.1.1...24.2.0)
+
+2024-02-10  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #437 from jcarpent/devel
+	Fix bug in Sparse module with zero-size matrices
+
+	changelog: sync
+
+	ci/changelog: add edited type
+	When the base branch is modified
+
+	test/sparse: test full zero matrices
+
+	sparse: fix handling of nnz==0
+
+	test/sparse: fix bug
+
+	cmake: sync submodule
+
+2024-02-05  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Merge pull request #433 from jorisv/topic/add_std_unique_ptr
+	Add `std::unique_ptr` support
+
+	variant: Test str and complex type support
+
+	unique_ptr: Manage string and complex type
+
+	unique_ptr: Replace _ by - in header file
+
+	unique_ptr: Move value instead of releasing it
+
+	ci: Fix ccache keys
+
+	unique_ptr: Add doc and missing include
+
+	changelog: Update changelog entry
+
+	unique_ptr: Specialize to_python_value to manage unique_ptr in the default_call_policies
+
+	unique_ptr: Fix includes
+
+	unique_ptr: Remove details:: when not needed
+
+	unique_ptr: Remove uses_registry
+
+	unique_ptr: Update CHANGELOG.md
+
+	unique_ptr: Return unique_ptr internal reference
+
+	unique_ptr: Move object
+
+	core: Move is_class_or_union trait in utils/traits.hpp
+
+	changelog: Add changelog entry
+
+	unique_ptr: Add a CallPolicy to copy std::unique_ptr content
+
+	cmake: Remove useless dependency to eigenpy
+
+2024-02-04  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #435 from jcarpent/devel
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+2024-01-31  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Merge pull request #431 from jorisv/topic/add_std_variant
+	Add `std::variant` support
+
+	cmake: Add variant.hpp in header file list
+
+	core: Avoid ambiguity with numeric type conversion
+
+	core: Rename VariantImplicitlyConvertible to VariantConvertible
+
+	core: Fix None to variant with blank conversion
+
+2024-01-30  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	core: Fix postcall for primitive type
+
+2024-01-30  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2024-01-30  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	wip: Try to add arithmetic type support
+
+	Add blank/monostate support
+
+	changelog: Add changelog entry
+
+2024-01-30  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2024-01-30  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	cmake: Use generated tests
+
+2024-01-30  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2024-01-30  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	core: Fix build issue with std::variant
+
+	unittest: Refactor test to test on std::variant and boost::variant
+
+	core: Rename VariantConvertor into VariantConverter and fix tests
+
+	core: Manage std::variant with the same API
+
+2024-01-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #430 from jorisv/topic/add_boost_variant
+	Add `boost::variant` support
+
+2024-01-30  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: Cancel PR workflow on new push
+
+	changelog: Add changelog entry
+
+	core: Add .clang-format file
+
+	unittest: Fix boost_variant tests
+
+	core: Add BoostVariantConvertor
+
+2024-01-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #429 from stack-of-tasks/namespace
+	do not use namespace eigenpy and define bp
+
+2024-01-30  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	changelog
+
+2024-01-29  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	do not use namespace eigenpy and define bp
+	to fix on 18.04:
+	```
+	[ 94%] Building CXX object unittest/CMakeFiles/std_pair.dir/std_pair.cpp.o
+	cd /local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest && /usr/bin/g++  -Dstd_pair_EXPORTS -I/local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0 -isystem /local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/include -isystem /usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/include/python3.6 -isystem /usr/include/eigen3  -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion   -pipe  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/std_pair.dir/std_pair.cpp.o -c /local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest/std_pair.cpp
+	/local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest/std_pair.cpp: In function 'void init_module_std_pair()':
+	/local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest/std_pair.cpp:28:3: error: reference to 'bp' is ambiguous
+	bp::def("std_pair_to_tuple", std_pair_to_tuple);
+	^~
+	/local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest/std_pair.cpp:8:29: note: candidates are: namespace bp = boost::boost::python;
+	namespace bp = boost::python;
+	^
+	In file included from /local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/include/eigenpy/eigenpy.hpp:9:0,
+	from /local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest/std_pair.cpp:4:
+	/local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/include/eigenpy/fwd.hpp:81:29: note:                 namespace eigenpy::bp = boost::boost::python;
+	namespace bp = boost::python;
+	^
+	/local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest/std_pair.cpp:29:3: error: reference to 'bp' is ambiguous
+	bp::def("copy", copy);
+	^~
+	/local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest/std_pair.cpp:8:29: note: candidates are: namespace bp = boost::boost::python;
+	namespace bp = boost::python;
+	^
+	In file included from /local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/include/eigenpy/eigenpy.hpp:9:0,
+	from /local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/unittest/std_pair.cpp:4:
+	/local/robotpkg/var/tmp/robotpkg/math/py-eigenpy/work/eigenpy-3.3.0/include/eigenpy/fwd.hpp:81:29: note:                 namespace eigenpy::bp = boost::boost::python;
+	namespace bp = boost::python;
+	^
+	```
+
+2024-01-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #428 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2024-01-29  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 23.12.1 → 24.1.1](https://github.com/psf/black/compare/23.12.1...24.1.1)
+
+2024-01-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #426 from jcarpent/topic/sparse
+	Add support for Eigen::SparseMatrix
+
+	changelog: update
+
+	core: remove useless includes
+
+	core: fix exposition for type long on Windows
+
+	core: fix compilation issue on Windows
+	include\eigenpy/numpy-type.hpp(32): error C2196: case value 'NPY_LONGLONG' already used
+
+	core: fix support of int32 and int64 support on Windows platforms
+
+	ci: activate check of SciPy support
+
+	core: fix special case on windows
+
+	core: use boost::numerics to simplify the code and make it more generic
+
+	test/sparse: extend test for Row and Col major matrices
+
+	core: fix proper location for enableEigenPySpecific
+
+	windows: fix conversion issue
+
+	core: expose Eigen::SparseMatrix Row and Col majors
+
+	core: implement expose_eigen_type_impl for sparse matrices
+
+	cmake: move scipy check to the tests
+
+	cmake: remove outdated BUILD_UNIT_TESTS option
+
+	ci: add missing scipy
+
+	test/sparse: add minimal test
+
+	sparse: fix potential compilation issues with GCC
+
+	sparse: fix issue for 0-sized matrices
+
+	core: add helpers in Register
+
+2024-01-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	changelog: update
+
+	ci: add scipy dependency
+
+	sparse: add first working version for Eigen::SparseMatrix
+
+	core: add helper macros
+
+2024-01-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: call find_scipy
+
+	sparse: add sicpy-type
+
+	cmake: sync submodule
+
+	core: start exposing Eigen::SparseMatrix
+
+	core: change helper name
+
+	core: remove non-implemented method
+
+	test/tensor: fix type
+
+2024-01-23  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	release: Update CHANGELOG.md for 3.3.0
+
+	release: Update package.xml version to 3.3.0
+
+2024-01-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	license: we are in 2024
+
+	Merge pull request #423 from jcarpent/devel
+	Fix memory when returning a list from std::vector or std::array
+
+2024-01-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: add has_operator_equal helper
+
+	std: add missing const
+
+	std: optional pickable exposition for std::vector
+
+	std: fix to list with a deep_copy option
+
+	changelog: sync
+
+	std: fix return policy
+
+	cmake: sync submodule
+
+	std: fix issue regarding potential leak for the tolist() method
+
+2024-01-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #422 from jorisv/topic/fix_ci_ccache
+	Fix ccache
+
+2024-01-09  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: Add Python version as cache key
+
+	ci: remove redundant dependency
+
+	ci: Do only 2 parallel build to avoid CI crash
+
+	ci: Fix ccache env variable
+
+	ci: Use Ninja on Windows to use ccache
+
+	ci: Fix ccache
+
+2024-01-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #421 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-12-25  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 23.12.0 → 23.12.1](https://github.com/psf/black/compare/23.12.0...23.12.1)
+
+2023-12-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #420 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-12-18  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 23.11.0 → 23.12.0](https://github.com/psf/black/compare/23.11.0...23.12.0)
+
+2023-12-12  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update CHANGELOG.md for 3.2.0
+
+	release: Update package.xml version to 3.2.0
+
+	Merge pull request #417 from jcarpent/topic/std-pair
+	Add support of std::pair
+
+	core: add converter to Python for std::pair
+
+2023-12-12  Justin Carpentier  <justin.carpentier@inria.fr>
+	    Joris Vaillant  <joris.vaillant@gmail.com>
+
+	Apply suggestions from code review
+
+2023-12-12  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	changelog: update
+
+	test: add test for std::pair
+
+	core: add std::pair converter support
+
+2023-12-11  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #416 from jcarpent/devel
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+2023-12-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #415 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-12-04  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Merge pull request #412 from ManifoldFR/topic/wjallet/expose-std-array
+	Expose std::array types
+
+2023-12-04  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v17.0.5 → v17.0.6](https://github.com/pre-commit/mirrors-clang-format/compare/v17.0.5...v17.0.6)
+
+2023-12-04  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	[unittest/python] test .tolist()
+
+	[std-array] implement tolist() for std::array
+
+2023-12-04  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	[std-array] Test array edge cases
+
+2023-12-04  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Update CHANGELOG
+
+	[std-array] various fixes
+	+ empty get_slice should return the slice type StdVec
+	+ set_slice with from >= to should throw
+	+ set_slice with incompatible iterator and slice sizes should throw
+
+	[std-array] array_indexing_suite::delete_item and ::delete_slice will throw Python exceptions
+
+	[std-array] defining array_indexing_suite::extend and ::append not required
+
+	[std-vector] add container_traits struct
+	+ use ::allocator_type typedef by default, set as void for std::array
+
+2023-12-01  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	update changelog
+
+2023-11-30  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	[cmake] I forgot to add the std-array.hpp header...
+
+	[unittest/python] test set_slice on std::array<int, ...>
+
+	[std-array] add docstring for StdArrayPythonVisitor
+
+2023-11-30  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2023-11-30  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	[unittest] std_array : add test_struct
+	[unittest/python] add test_struct
+
+	[unittest/python] update test_std_array.py
+	+ do not test slice for std::array<Eigen..., k>
+
+	[std-array] use visitor in StdArrayPythonVisitor::expose()
+
+	[unittest/python] update test_std_array.py
+
+	[unittest] expose std::vector<VectorXd> for use in slices
+
+	[std-array] fix size of returned slice
+
+	[std-array] add SliceAllocator template parameter to StdArrayPythonVisitor
+	+ shortcut function exposeStdArrayEigenSpecificType now uses Eigen::aligned_allocator<T> for the slice vector
+
+	[std-array] add SliceAllocator template parameter
+	+ sets allocator for the std::vector<T, Allocator> returned by get_slice
+
+	[unittest] std::array test: test for size of _ints_slice
+
+	[std-array] array_indexing_suite: get_slice returns std::vector<T>
+
+	[unittest] add unit tests for std::array
+
+	[std-array] array_indexing_suite: fix up set_sice from iterators
+
+	Add header eigenpy/std-array.hpp
+	+ add eigenpy::array_indexing_suite
+	+ add eigenpy::StdArrayPythonVisitor
+	+ add function template exposeStdArrayEigenSpecificType<MatrixType, std::size_t Size>
+
+	[std-vector] StdContainerFromPythonList : remove Allocator typedef
+	+ does not exist on all container types
+
+2023-11-27  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	release: Update CHANGELOG.md for 3.1.4
+
+	release: Update package.xml version to 3.1.4
+
+	Merge pull request #410 from jcarpent/devel
+	Sync submodule CMake
+
+2023-11-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2023-11-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2023-11-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #409 from jcarpent/devel
+	Update cmake module and activate ROS Humble
+
+	ci/ros: add humble
+
+2023-11-24  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Merge pull request #408 from jorisv/topic/changelog_check_on_label
+	Update changelog check on label update
+
+	ci: update changelog check on label update
+
+2023-11-23  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Merge pull request #375 from jcarpent/devel
+	Enhance support of Tensor module in external applications
+
+	readme: fix white space
+
+	cmake: use jrl-umi3218 modules
+
+2023-11-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: add Joris + typos
+
+	changelog: update
+
+2023-11-23  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	cmake: update submodule
+
+	cmake: update cmake
+
+	ci: build for oldest and newest python version managed by conda
+
+	cmake: fix cmake
+
+	cmake: fix stub generation on windows
+
+	cmake: update cmake
+
+2023-11-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: use MODULE for Python lib
+
+	cmake: add MP option for Windows
+
+	cmake: sync submodule
+
+	ci/windows: remove commented lines
+
+	ci/windows: debug
+
+	ci/windows: debug
+
+	Use jcarpent fork of cmake module
+
+	core: add helpers to check Tensor support at run-time
+
+	cmake: fix compilation ordering of .pyc files
+
+	cmake: sync submodule
+
+	Merge pull request #406 from stack-of-tasks/regression/405
+	CMake: check version is not 0.0
+
+	ci/ros: remove support of melodic
+
+2023-11-22  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	jrl: check version is not 0.0
+
+2023-11-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #404 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-11-21  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	ci: drop melodic support
+
+2023-11-20  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v17.0.4 → v17.0.5](https://github.com/pre-commit/mirrors-clang-format/compare/v17.0.4...v17.0.5)
+
+2023-11-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #402 from jorisv/topic/fix_check_changelog
+	Fix check-changelog
+
+2023-11-16  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: use the good file extension
+
+	ci: run check-changelog on latest ubuntu
+
+	ci: remove pull_request type filter in check-changelog
+
+2023-11-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #401 from jorisv/topic/check_changelog
+	ci: add ci step to check changelog update before merging in master
+
+2023-11-14  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: check in devel branch instead of master branch
+
+	ci: add ci step to check changelog update before merging in master
+
+	Merge pull request #399 from jorisv/topic/fix_std_vector_api
+	core: fix StdVectorPythonVisitor::expose API
+
+	core: add regression tests
+
+	core: use `bp` instead of `boost::python`
+
+	core: fix StdVectorPythonVisitor::expose API
+
+2023-11-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #400 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-11-13  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 23.10.1 → 23.11.0](https://github.com/psf/black/compare/23.10.1...23.11.0)
+
+2023-11-13  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Changelog (#398)
+	* changelog: generate old entries from github
+	
+	* changelog: fix format
+	
+	* changelog: more tags
+	
+	* bump CMake for changelog update on releases
+	
+	* changelog: deduplicate
+	
+	* bump submodule
+	
+	* changelog: fix username links
+	
+	* changelog: clean
+	
+	* changelog: typo
+	
+	* changelog: typo
+	
+	* bump submodule
+
+2023-11-09  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	release: Update package.xml version to 3.1.3
+
+	changelog: add release
+
+	changelog: update content
+
+	Merge branch 'master' into devel
+
+2023-11-09  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge tag 'v3.1.2' into devel
+	Release of version 3.1.2.
+
+	CMake: install registration_class
+
+2023-11-09  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	changelog: Add the release number.
+
+	release: Update package.xml version to 3.1.2
+
+	Merge pull request #396 from stack-of-tasks/topic/keep_a_changelog
+	common: propose a new changelog format
+
+2023-11-08  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Remove semantic versioning
+
+	common: propose a new changelog format
+
+2023-11-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #393 from jorisv/topic/override_std_def
+	Topic/override std def
+
+2023-11-08  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	Rename AddStdMethodToStdVector to ExposeStdMethodToStdVector
+
+2023-11-08  Joris Vaillant  <joris.vaillant@navya.tech>
+
+	core: Preserve the old API and simplify some inheritance
+
+	core: Fix std_vector unit tests
+
+	[WIP] core: add methods to already defined vector type
+
+2023-11-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #395 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-11-06  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v17.0.3 → v17.0.4](https://github.com/pre-commit/mirrors-clang-format/compare/v17.0.3...v17.0.4)
+
+2023-11-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #391 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-11-02  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v17.0.2 → v17.0.3](https://github.com/pre-commit/mirrors-clang-format/compare/v17.0.2...v17.0.3)
+	- [github.com/psf/black: 23.9.1 → 23.10.1](https://github.com/psf/black/compare/23.9.1...23.10.1)
+
+2023-11-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #394 from stack-of-tasks/topic/update_cmake
+	Topic/update cmake
+
+2023-11-02  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: remove verbose output
+
+2023-11-02  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	cmake: show python version
+	test cmake fix for ROS CI
+
+	Try to archive colcon log
+
+	Try to run colcon with info log level
+
+	Continue debugging
+
+	Continue debugging
+
+	Use fixed jrlcmakemodule
+
+	Add build check to avoid to setup branch protection manually
+
+	Give a name to check
+
+	cmake: Try new jrlcmake version
+
+	cmake: Try new jrlcmake version
+
+	cmake: Try new jrlcmake version
+
+	cmake: Try new jrlcmake version
+
+	cmake: use working JRL cmake version
+
+2023-10-27  Joris Vaillant  <joris.vaillant@inria.fr>
+
+	ci: Update build name
+
+	ci: Fix python matrix
+
+	Release on more python version
+
+	Update cmake
+
+2023-10-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #390 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-10-16  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v16.0.6 → v17.0.2](https://github.com/pre-commit/mirrors-clang-format/compare/v16.0.6...v17.0.2)
+
+2023-10-09  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #389 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-10-09  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/pre-commit-hooks: v4.4.0 → v4.5.0](https://github.com/pre-commit/pre-commit-hooks/compare/v4.4.0...v4.5.0)
+
+2023-09-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #388 from nim65s/devel
+	CMake: require >= 3.10
+
+2023-09-16  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	CMake: require >= 3.10
+	ref. https://github.com/jrl-umi3218/jrl-cmakemodules/issues/338
+	and fix deprecation warning about CMake 3.5 from CMake 3.27
+
+2023-09-12  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #386 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-09-12  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 23.7.0 → 23.9.1](https://github.com/psf/black/compare/23.7.0...23.9.1)
+
+2023-07-31  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 3.1.1
+
+	Merge pull request #382 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-07-31  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 23.3.0 → 23.7.0](https://github.com/psf/black/compare/23.3.0...23.7.0)
+
+2023-07-31  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #383 from cmastalli/topic/copyable
+	Extended copyable visitor
+
+	core: fix copyright holders
+
+2023-07-31  Carlos Mastalli  <carlos.mastalli@gmail.com>
+
+	[copyright] Updated copyright
+
+2023-07-31  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2023-07-31  Carlos Mastalli  <carlos.mastalli@gmail.com>
+
+	[python] Extended copyable visitor
+
+2023-07-31  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #384 from jcarpent/topic/ci
+	Fix ROS CI
+
+	ci/ros: fix ccache
+
+	cmake: sync submodule
+
+	ros/ci: deactivate ccache
+
+	ros/ci: add iron
+
+	ci/ros: update latest commits
+
+2023-06-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #374 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-06-20  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v16.0.4 → v16.0.6](https://github.com/pre-commit/mirrors-clang-format/compare/v16.0.4...v16.0.6)
+
+2023-06-01  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 3.1.0
+
+	Merge pull request #373 from jcarpent/devel
+	Sync submodule CMake
+
+	ci/ros: remove useless lines
+
+	ci/ros: fix ccache dir
+
+	ci: fix for OSX path
+
+2023-05-31  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ci: create cache dir
+
+	ci: fix ccache path
+
+	ci: fix cache
+
+	ci: fix ccache dir
+
+	cmake: sync submodule
+
+	cmake: remove useless message
+
+	cmake: fix missing include for build_python macro
+
+	cmake: sync submodule
+
+2023-05-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #371 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-05-23  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v16.0.3 → v16.0.4](https://github.com/pre-commit/mirrors-clang-format/compare/v16.0.3...v16.0.4)
+
+2023-05-16  Wilson  <wilson.jallet@polytechnique.org>
+	    Justin Carpentier  <justin.carpentier@inria.fr>
+
+	optional: check registration of none type and optional type before exposing converter (#368)
+	* optional: check registration of none type and optional type
+	
+	* core: remove useless include
+	
+	* core: fix include
+	
+	---------
+
+2023-05-15  Wilson  <wilson.jallet@polytechnique.org>
+
+	WIP: Expose boost::none_t type (and std::nullopt_t when available) (#367)
+	* optional: expose to-value converter for boost::none_t (and std::nullopt_t if possible)
+	
+	+ add src/optional.cpp to expose none types
+	+ this allows to have None as a default arg value for functions (also, shows up in stubs)
+	+ also allows to have none_t return/argument type
+	
+	* Run pre-commit
+
+2023-05-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #366 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-05-09  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v16.0.2 → v16.0.3](https://github.com/pre-commit/mirrors-clang-format/compare/v16.0.2...v16.0.3)
+
+2023-04-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #363 from jcarpent/devel
+	Sync submodule cmake
+
+2023-04-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2023-04-25  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #362 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-04-25  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v16.0.1 → v16.0.2](https://github.com/pre-commit/mirrors-clang-format/compare/v16.0.1...v16.0.2)
+
+2023-04-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: update title + fix
+
+	readme: update build status badge
+
+	readme: add vectorization support  info
+
+	release: Update package.xml version to 3.0.0
+
+	cmake: fix configure output file issue
+
+	Merge pull request #361 from jcarpent/devel
+	Remove support of numpy.matrix class
+
+	readme: add Wilson as core contributor
+
+	readme: update content
+
+2023-04-21  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	all: remove useless and non tested files
+
+	all: remove support of numpy.matrix
+
+2023-04-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #360 from ManifoldFR/devel
+	Add example showing how to bind virtual classes, passing to overrides…
+
+2023-04-20  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	tests/python: use old-style call to parent ctor
+
+	Add example showing how to bind virtual classes, passing to overrides by reference, registering shared_ptr, and overriding factories and data classes from Python
+
+2023-04-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #359 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-04-18  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v16.0.0 → v16.0.1](https://github.com/pre-commit/mirrors-clang-format/compare/v16.0.0...v16.0.1)
+
+2023-04-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #358 from jcarpent/devel
+	Fix CI + sync submodule cmake
+
+	ci/conda: use ccache
+
+	ci: fix cmake version
+
+	cmake: sync submodule
+
+	ci/linux: remove support of 18.04
+
+2023-04-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #357 from ManifoldFR/wjallet/bind-boost-optional
+	Add util to expose optional types
+
+2023-04-06  Wilson  <wilson.jallet@polytechnique.org>
+	    Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Update unittest/bind_optional.cpp.in
+
+2023-04-06  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	add missing copyright header
+
+2023-04-06  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2023-04-06  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	unittest: add test for std::optional if available
+	+ unittest: make bind_optional and test_optional.py into template files
+	+ cmake: instantiate boost and std optional tests using configure_file
+
+	optional: add support for std::optional under cpp17
+
+	Add util to expose optional types
+	+ default is boost::optional<T>
+	+ add test for boost::optional
+
+2023-04-04  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #356 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-04-04  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 23.1.0 → 23.3.0](https://github.com/psf/black/compare/23.1.0...23.3.0)
+
+2023-03-31  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #355 from nim65s/devel
+	fix INSTALL_RPATH on ROS & OSX
+
+2023-03-31  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	fix INSTALL_RPATH on ROS & OSX
+	ref. https://github.com/stack-of-tasks/eigenpy/issues/353
+	ref. https://github.com/jrl-umi3218/jrl-cmakemodules/pull/588
+
+2023-03-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #354 from jcarpent/devel
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+	Merge pull request #352 from ManifoldFR/devel
+	CMake: have python stubs target depend on pywrap target
+
+	cmake: sync submodule
+
+2023-03-29  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	cmake: have python stubs target depend on pywrap target
+
+	cmake: sync submodule
+
+2023-03-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #351 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-03-28  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v15.0.7 → v16.0.0](https://github.com/pre-commit/mirrors-clang-format/compare/v15.0.7...v16.0.0)
+
+2023-02-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #350 from ManifoldFR/wj/add-test-user-struct
+	Tests: add user-struct test
+
+2023-02-28  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Add test user-struct
+	+ create struct with fixed-size members, expose with setter
+
+2023-02-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #349 from jcarpent/devel
+	Enable scalar template specialization
+
+	cmake: sync submodule
+
+	core: allow template specialization according to the scalar type
+
+	docker: add docker for easy docker setup
+
+2023-02-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #348 from jcarpent/devel
+	Add full support of Eigen::Tensor
+
+	core: consider a specific strategy for windows
+	This solution should be unified when MSVC compiler will behave properly
+
+	test/tensor: fix windows
+
+	test/tensor: fix index type
+
+	compilation: try a fix for windows
+
+2023-02-21  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	test: fix python2 issue
+
+	test: fix compatility with Eigen::TensorBase error
+
+	core: fix issue with Eigen::TenosrBase on older Eigen versions
+
+	core: fix check_swap
+
+	core: remove TensorBase
+
+	core: fix type for TensorRef
+
+	core: try a fix for old version of Eigen
+
+	ci/linux: echo information
+
+	cmake: force c++11
+
+2023-02-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: fix alignement issues for Eigen::Tensor
+
+	core: try a fix
+
+	core: fix constructor of Eigen::DSizes
+
+	test/cmake: set C++11 standard for tensor
+
+	core: fix compilation warning
+
+	core: fix c++98 compatibility
+
+	pre-commit: set default standard for C++
+
+	core: add missing guards
+
+	core: add missing specialization of rvalue_from_python_data
+
+	test: add tensor test
+
+	test/matrix: test case 1x1
+
+	core: expose Eigen::Tensor
+
+	core: add full support of Eigen::Tensor types
+
+	core: expose 1x1 type
+
+	core: add 1x1 typedefs
+
+	core: add helper EIGENPY_UNUSED_TYPE
+
+	core: start reworking EigenFromPyConverter in preparation for Eigen::Tensor
+
+	core: rework EigenAllocator in preparation for Eigen::Tensor
+
+	core: add allocator for Eigen::Tensor
+
+	core: rework NumpyMap in preparation for Eigen::Tensor
+
+	core: rework StrideType in preparation for Eigen::Tensor
+
+	core: add get_eigen_base_type
+
+	core: simplify code by removing redundant portions
+
+	core: add EIGENPY_WITH_TENSOR_SUPPORT
+
+	core: include Eigen Tensor module for C++11 and more
+
+	core: remove deprecated signature
+
+	core: simplify the code for EigenToPy class
+
+	core: add EIGENPY_DOCUMENTATION_{START,END}_INGORE macros
+
+2023-02-12  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #346 from jcarpent/devel
+	Clean use of namespace bp::
+
+	core: move include
+
+	all: remove useless namespace bp::
+
+	cmake: sync submodule
+
+2023-02-07  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+	    pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate (#345)
+	* [pre-commit.ci] pre-commit autoupdate
+	
+	updates:
+	- [github.com/psf/black: 22.12.0 → 23.1.0](https://github.com/psf/black/compare/22.12.0...23.1.0)
+	
+	* [pre-commit.ci] auto fixes from pre-commit.com hooks
+	
+	for more information, see https://pre-commit.ci
+	
+	---------
+
+2023-02-01  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.9.2
+
+	Merge pull request #344 from jcarpent/devel
+	Fix for Python 3.6
+
+	core: fix for Python 3.6
+
+2023-01-31  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.9.1
+
+2023-01-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #343 from jcarpent/devel
+	Fix issue with Boost.Python < 1.71
+
+	core: rename macro name
+
+	geometry: fix quaternion holder type
+
+	core: add EIGENPY_CLASS_HOLDER_TYPE
+
+	core: add EIGENPY_WITH_CXX macros
+
+	quaternion: staticmethod
+
+	core: fix aligned_malloc
+
+	core: add aligned_malloc
+
+	core: add missing const
+
+	Merge pull request #342 from jcarpent/devel
+	Add and expose printEigenVersion
+
+	core: add and expose printEigenVersion
+
+2023-01-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #341 from nim65s/devel
+	test python 2/3 ubuntu 18/20/22
+
+	ci/ros: checkout older commit
+
+	ci/ros: try to debug
+
+	ci: update to latest actions
+
+	ci: update ros ci
+
+	cmake: add missing logic
+
+	cmake: fix comparison
+
+	numpy: fix compatibility issue with old versions < 1.16.0
+
+	cmake: sync submodule
+
+2023-01-26  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	ci linux: -j2
+
+	ci linux: boost python is not available for python 2 / ubuntu 20.04
+
+	test python 2/3 ubuntu 18/20/22
+
+2023-01-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #340 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2023-01-24  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v15.0.6 → v15.0.7](https://github.com/pre-commit/mirrors-clang-format/compare/v15.0.6...v15.0.7)
+
+2023-01-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.9.0
+
+	Merge pull request #339 from jcarpent/devel
+	Remove deprecated EIGENPY_DEFINE_STRUCT_ALLOCATOR_SPECIALIZATION
+
+	all: remove deprecarte EIGENPY_DEFINE_STRUCT_ALLOCATOR_SPECIALIZATION
+
+	Merge pull request #337 from jcarpent/devel
+	Simplify alignment procedure
+
+	cmake: sync submodule
+
+2023-01-09  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	sync submodule
+
+2023-01-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	macros: fix windows
+
+	core: fix macrs
+
+	memory: set deprecated
+
+	core: force alignment of all instances
+
+	test: fix compilation warning
+
+	core: add new macros
+
+	memory: simplify alignment procedure
+
+2023-01-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #338 from jcarpent/topic/cmake
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+	Merge pull request #336 from jcarpent/devel
+	Add full support of vectorization
+
+2023-01-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ci: excluse some tests on OSX
+
+	ci: enforce strategy
+
+	test: update test to account for alignment issues
+
+	core: fix std support for Eigen types
+	Should use Eigen::aligned_allocator
+
+	geometry: minor cleanup
+
+	core: deploy alignment support
+
+	core: remove useless code
+
+	core: check data alignment
+
+	core: add alignment support
+
+	core: move EIGENPY_DEFAULT_ALIGN_BYTES to a common place
+
+	python: expose SimdInstructionSetsInUse
+
+2023-01-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: make generic alignment of struct
+
+2023-01-03  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #335 from jcarpent/devel
+	Move and update license
+
+	cmake: sync submodule
+
+	license: move and update
+
+2022-12-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #334 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-12-19  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v15.0.4 → v15.0.6](https://github.com/pre-commit/mirrors-clang-format/compare/v15.0.4...v15.0.6)
+
+2022-12-13  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #333 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+	ci: remove EOL Galactic
+
+2022-12-12  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 22.10.0 → 22.12.0](https://github.com/psf/black/compare/22.10.0...22.12.0)
+
+2022-12-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.8.1
+
+	Merge pull request #332 from jcarpent/devel
+	Fix handling of Numpy blocks on vector types
+
+	test/ref: enforce testing of vector blocks
+
+	core: add assert for future debugging
+
+	core: fix issue with Vector types
+	a vector should be either C or F continuous
+
+2022-12-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.8.0
+
+	Merge pull request #325 from ManifoldFR/wj/move-std-vector
+	Copy std-vector and std-map from Pinocchio
+
+2022-12-05  Fabian Schramm  <55981657+fabinsch@users.noreply.github.com>
+
+	set runtime path for python library
+
+	update cmake module
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	unittest: rename vector.cpp to std_vector.cpp
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	unittest/vector.cpp
+	remove useless include
+	remove comment between includes (not sorted by pre-commit anymore)
+
+	core/std-vector.hpp
+	* fix using-ctor for older cpp versions
+	* fix warning about conversion
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	unittest/eigen_ref: rename asRef overload to "getRefToStatic"
+	& update its docstring
+
+	core/std-vector: change typedef visibility
+
+	unittest/std-vector: fix for older numpy
+
+2022-12-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	pre-commit: fix ordering of includes
+
+	core: fix compatibility with C++98
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Update tests:
+	* fix includes
+	* comment out edge cases
+
+	eigen-allocator: go back to allocating when layout is wrong
+
+	unittest/eigen_ref: tidy up test and cpp file
+	unittest/eigen_ref.cpp: asConstRef should take input as Ref<const T>
+
+	quaternion: fix constructors taking const Eigen::Ref
+	* should take Eigen::Ref of const (to dispatch to proper EigenAllocator)
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	eigen-allocator: refactor check of pyArray memory layout vs desired output layout
+	eigen-allocator: try a fix for mutable Eigen::Ref from Python array with "wrong" layout
+
+	* trick transposes pyArray to get the right layout :)
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	unittest: update test_std_vector.py
+
+2022-12-05  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	update std-vector.hpp and test
+	std-map/std-vector: add mention to file heading
+
+2022-12-05  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Specialize boost::python::extract template for references to Eigen matrices
+	* bp::extract will construct an Eigen::Ref on the fly as an rvalue using the registered converter
+	* move overload_base_get_item_for_std_vector from pinocchio to here -- changes behaviour of __getitem__
+	* redef exposeStdVectorEigenSpecificType to overload the boost vector_indexing_suite __getitem__
+	* move exposeStdVectorEigenSpecificType to std-vector.hpp header
+
+2022-12-05  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	std-vector: try setting elements to zero
+	* does not work properly
+
+2022-12-05  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Add unit tests for exposing std::vector
+	* tests we can expose std::vector<Matrix3d>
+	* test input and returning std::vector<Matrix> objects
+	* test specific functions for specific dims
+
+2022-12-05  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Expose some std::vector of Eigen Vector & Matrix
+	* add test_std_vector.py
+	* fix copyable.hpp's include guards & namespace
+	* same for pickle-vector
+	* expose std::vector for VectorXd, MatrixXd, VectorXi, MatrixXi
+
+	Add new files to cmakelists
+
+	Run pre-commit on copyable, pickle-vector, std-aligned-vector
+	remove references to aligned
+
+	std-vector: remove NumericalBase, PickleVector
+
+	Move files to new directories
+
+2022-12-05  jcarpent  <jcarpent@laas.fr>
+
+	[Python] Add copyable method to create a raw copy of Spatial classes
+	[Python] Introduce struct to expose both std::vector and aligned_vector
+
+	all: change __se3_* for __pinocchio_* for pragma once
+
+	all: change namespace from se3 to pinocchio
+
+	The previous se3 namespace is now deprecated but can still be used
+
+	all: remove license from files
+
+	[bindings][pickling] add support for vector<T> aligned_vector<T> map<T> pickling.
+	update model and data classes to make their members picklable
+
+	[bindings][pickling] 1) fix includes. make picklemap borrow from picklevector
+
+	2) use pickle support for rest of data and some more of model vectors
+
+	python: add converter from Python list to std::vector or aligned_vector
+
+	python: fix issue on GCC related to namespace bp
+
+	python: fix namespace issue
+
+	python/vector: add conversion tolist for std::vector
+
+	python/utils: return by reference when creating list
+
+	python/utils: add return of the class for StdVector helpers
+
+	python: fix return type
+
+	python/pickle: fix pickling of std::map
+
+	python: fix potential bug with C++11
+
+	python: make the code compliant for casadi bindings
+
+	python: fix arg name
+
+	python/pickle: fix compatibility issue
+
+	Compilation issues with recent version of Boost
+
+	python: add copy constructor and method to std::vector
+
+	python: expose operator{==,!=} for std::vector
+
+	Revert "python: expose operator{==,!=} for std::vector"
+
+	This reverts commit 6710dd4758791b3eee1ac444945e7f507aece7f6.
+
+	python/utils: update std-vector exposition
+
+	python: fix issues with const reference as input argument
+
+	python: fix pickling of Pinocchio data structure
+
+2022-12-05  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	move std-map.hpp
+	(std-map) Fix include guard
+
+	* apply pre-commit formatting
+	* rename namespace
+
+2022-12-05  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Move std-vector/map here from pinocchio3
+	Commits from downstream are rebased & squashed
+
+2022-12-05  jcarpent  <jcarpent@laas.fr>
+
+	[Python] Introduce struct to expose both std::vector and aligned_vector
+	all: change __se3_* for __pinocchio_* for pragma once
+
+	all: change namespace from se3 to pinocchio
+
+	The previous se3 namespace is now deprecated but can still be used
+
+	all: remove license from files
+
+	[binding][std::map] Create Python visitors for std::map for aligned allocator. (and also for non-aligned maps, for the sake of completion)
+
+	[referenceConfigurations] review comments of @jcarpent on #666
+
+	[bindings][pickling] add support for vector<T> aligned_vector<T> map<T> pickling.
+	update model and data classes to make their members picklable
+
+	python: add converter from Python list to std::vector or aligned_vector
+
+	python: fix issue on GCC related to namespace bp
+
+	all: fix template issue
+
+	python/utils: factorization of the code
+
+	python/vector: add conversion tolist for std::vector
+
+	python/utils: return by reference when creating list
+
+	python/contact: fix doc
+
+	python/utils: handle std::vector for non const reference
+
+	python: add helpers to return Eigen object from std containers
+
+	python/utils: add return of the class for StdVector helpers
+
+	python: fix return type
+
+	core: fix merging issues
+
+	all: fix merging
+
+	python: make the code compliant for casadi bindings
+
+	python/utils: fix entry type for StdVectorPythonVisitor
+
+	python/utils: enhance API exposed for std::vector
+
+	python: add copy constructor and method to std::vector
+
+	python: expose operator{==,!=} for std::vector
+
+	Revert "python: expose operator{==,!=} for std::vector"
+
+	This reverts commit 6710dd4758791b3eee1ac444945e7f507aece7f6.
+
+	python/utils: update std-vector exposition
+
+	python: fix issues with const reference as input argument
+
+2022-11-29  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #329 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-11-29  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/pre-commit-hooks: v4.3.0 → v4.4.0](https://github.com/pre-commit/pre-commit-hooks/compare/v4.3.0...v4.4.0)
+
+2022-11-22  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+	    pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate (#328)
+	* [pre-commit.ci] pre-commit autoupdate
+	
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v14.0.6 → v15.0.4](https://github.com/pre-commit/mirrors-clang-format/compare/v14.0.6...v15.0.4)
+	
+	* [pre-commit.ci] auto fixes from pre-commit.com hooks
+	
+	for more information, see https://pre-commit.ci
+
+2022-10-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #327 from jcarpent/devel
+	Fix potential issues related to Boost.Python >= 1.80
+
+	ci/conda: fix version parsing
+
+	ci/conda: display installed packages
+
+	ci/conda: use Python 3.10
+
+	cmake: sync submodule
+
+	all: fix issues with Boost >= 1.80
+
+2022-10-11  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #326 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-10-11  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 22.8.0 → 22.10.0](https://github.com/psf/black/compare/22.8.0...22.10.0)
+
+2022-09-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #323 from jcarpent/devel
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+2022-09-18  Anthony Miyaguchi  <acmiyaguchi@gmail.com>
+	    Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Modify stride assertion in `numpy-map.hpp` to be valid for empty vector (#321)
+	* Set stride assert to be less than INT_MAX
+	
+	* Remove extra print calls and flush on print
+	
+	* Revert "Remove extra print calls and flush on print"
+	
+	This reverts commit cc7db3d0fa393611df5f69f7d77f59f803bdff5d.
+	
+	* core: fix assert
+
+2022-09-11  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.14
+
+2022-09-10  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #319 from jcarpent/devel
+	Fix Boost.Python export
+
+	cmake: sync submodule cmake
+
+	cmake: set REQUIRED
+
+	cmake: sync submodule
+
+2022-09-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.13
+
+2022-09-08  Wolfgang Merkt  <wxmerkt@users.noreply.github.com>
+	    Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Fix flake8 errors (#318)
+	* Fix flake8 errors
+	
+	* flake8: ignore E203
+	
+	* flake8: 119 cols for now
+	
+	* black
+	
+	* fix comment style
+	
+	* exclude cmake.py
+	
+	* clang-format: sort include
+
+2022-09-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #317 from jcarpent/devel
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+2022-09-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #315 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-09-05  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/psf/black: 22.6.0 → 22.8.0](https://github.com/psf/black/compare/22.6.0...22.8.0)
+
+2022-08-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #314 from wxmerkt/topic/test-new-findboost
+	Test https://github.com/jrl-umi3218/jrl-cmakemodules/pull/547
+
+2022-08-30  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Update cmake submodule
+
+	unittest: Remove unused import numpy.linalg
+
+2022-08-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #307 from stack-of-tasks/topic/always-run-prerelease
+	[CI] Always run PRERELEASE tests
+
+	Merge pull request #313 from stack-of-tasks/topic/reloc
+	add relocatable test
+
+2022-08-26  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	CMAKE_INSTALL_{FULL_ -> }<dir>
+
+	add relocatable test
+
+2022-08-26  Wolfgang Merkt  <wxmerkt@users.noreply.github.com>
+
+	[CI] Always run PRERELEASE tests
+	Our current CI configuration only ran prerelease tests for ROS2. We recently had a CMake breakage for Python2
+
+	Cf.
+	https://github.com/ros/rosdistro/pull/34135#issuecomment-1221034543
+	https://github.com/stack-of-tasks/eigenpy-ros-release/issues/4
+
+2022-08-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #311 from jcarpent/devel
+	Fix packaging
+
+	cmake: sync submodule
+
+	release: Update package.xml version to 2.7.12
+
+	Merge pull request #308 from stack-of-tasks/topic/moveit
+	export SEARCH_FOR_BOOST_PYTHON
+
+	cmake: sync submodule
+
+2022-08-24  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	export SEARCH_FOR_BOOST_PYTHON
+
+2022-08-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #310 from nim65s/topic/_snprintf
+	define HAVE_SNPRINTF for windows, fix #309
+
+2022-08-23  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	define HAVE_SNPRINTF for windows, fix #309
+
+2022-08-11  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #306 from jcarpent/devel
+	Sync submodule CMake
+
+	cmake: sync submodule
+
+	release: Update package.xml version to 2.7.11
+
+	Merge pull request #305 from jcarpent/devel
+	Sync submodule Cmake
+
+2022-08-11  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	CMake: remove redundant include
+
+	CMake: fix for python 2 and python include dirs
+
+2022-08-11  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2022-08-10  Justin Carpentier  <justin.carpentier@inria.fr>
+	    Guilhem Saurel  <guilhem.saurel@laas.fr>
+	    Guilhem Saurel  <guilhem.saurel@laas.fr>
+	    pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	FIx issue related to Python 3.10 (#304)
+	* cmake: use REQUIRED
+	
+	* core: fix issue with Python 3.10 and more
+	
+	* core: fix logic
+	
+	* core: fix
+	
+	* core: further fix
+	
+	* Core: use official solution
+	
+	
+	* [pre-commit.ci] auto fixes from pre-commit.com hooks
+	
+	for more information, see https://pre-commit.ci
+	
+	* core: fix
+
+2022-07-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #301 from nim65s/devel
+	CMake: typo
+
+2022-07-29  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	CMake: typo
+	fix build on NetBSD 9.2
+
+2022-07-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.10
+
+	Merge pull request #298 from nim65s/devel
+	ci: test packaging
+
+	Merge pull request #300 from nim65s/topic/cmake-format
+	pre-commit / cmake-format
+
+2022-07-27  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	ignore previous commit in git blames
+
+	pre-commit run -a
+
+	pre-commit: add cmake-format
+
+	sync submodule
+
+	test packaging: remove useless find_package
+
+	ci: test packaging
+
+2022-07-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.9
+
+2022-07-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #297 from jcarpent/topic/cmake
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+	Merge pull request #296 from jcarpent/topic/ci
+	Enhance CI by testing hpp-fcl
+
+	ci: fic
+
+	ci: test packaging on windows
+
+	cmake: discard a test on Windows
+
+2022-07-26  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	sync submodule
+
+	sync submodule
+
+2022-07-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ci: fix
+
+	ci: fix windows
+
+	ci: fix
+
+	cmake: sync submodule
+
+	ci: check packaging hpp-fcl
+
+	cmake: sync submodule
+
+2022-07-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.8
+
+	Merge pull request #295 from stack-of-tasks/hotfix/fix-python-numpy-linking-error
+	Fix python numpy linking error
+
+2022-07-22  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Set PYTHON_EXPORT_DEPENDENCY to ON
+
+	Update CMake module with fix in PR#523
+
+2022-07-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #293 from jcarpent/devel
+	Fix cross compilation
+
+	cmake: sync submodule
+
+	cmake: fix cross compilation
+
+	release: Update package.xml version to 2.7.7
+
+2022-07-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #292 from wxmerkt/topic/ros2-integration
+	ROS2/Colcon integration for AMENT_PREFIX_PATH and PYTHONPATH
+
+2022-07-18  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	colcon integration: AMENT_PREFIX_PATH and prepend PYTHONPATH
+
+	Update cmake submodule
+
+2022-07-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #291 from nim65s/topic/relocatable
+	cmake: relocatable package for recent CMake versions
+
+2022-07-15  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	rename into MODERNIZE_TARGET_LINK_LIBRARIES
+
+	modernize if available
+
+	cmake: relocatable package for recent CMake versions
+
+2022-07-05  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #290 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-07-04  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v14.0.5 → v14.0.6](https://github.com/pre-commit/mirrors-clang-format/compare/v14.0.5...v14.0.6)
+	- [github.com/psf/black: 22.3.0 → 22.6.0](https://github.com/psf/black/compare/22.3.0...22.6.0)
+
+2022-06-21  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #289 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-06-20  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v14.0.4-1 → v14.0.5](https://github.com/pre-commit/mirrors-clang-format/compare/v14.0.4-1...v14.0.5)
+
+2022-06-14  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #288 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+	fix pre-commit
+
+2022-06-13  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v14.0.3 → v14.0.4-1](https://github.com/pre-commit/mirrors-clang-format/compare/v14.0.3...v14.0.4-1)
+	- [github.com/pre-commit/pre-commit-hooks: v4.2.0 → v4.3.0](https://github.com/pre-commit/pre-commit-hooks/compare/v4.2.0...v4.3.0)
+
+2022-06-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #287 from jcarpent/devel
+	Sync submodule cmake
+
+2022-06-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2022-05-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.6
+
+	Merge pull request #286 from jcarpent/devel
+	Allow template specialization of getitem
+
+	user types: allow template specialization of getitem
+
+2022-05-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.5
+
+2022-05-10  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #285 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-05-09  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v14.0.1 → v14.0.3](https://github.com/pre-commit/mirrors-clang-format/compare/v14.0.1...v14.0.3)
+
+2022-05-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #284 from ManifoldFR/devel
+	Fix for Refs to dynamic (1, N) blocks
+
+2022-05-09  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	numpy-allocator: extend row vector fix to const<EigenRef>
+
+2022-05-09  Wilson Jallet  <ManifoldFR@users.noreply.github.com>
+	    Justin Carpentier  <justin.carpentier@inria.fr>
+
+	numpy-allocator: remove useless variable def
+
+2022-05-09  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-05-09  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	Fix for dynamic (1, N) block Refs
+	* stride reversed also in this case
+	* add test for (1,n) and (n,1) blocks
+
+	eigen_ref: test taking a row from a matrix
+
+2022-05-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.4
+
+	Merge pull request #283 from jcarpent/devel
+	Fix RowMajor case for Eigen::Ref
+
+	core: handle RowMajor case for Eigen::Ref
+
+2022-05-04  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #282 from ManifoldFR/devel
+	test/eigen_ref: test using Eigen::Ref as data member
+
+2022-05-03  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-05-03  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	test/eigen_ref: test using Eigen::Ref as data member
+	* show correct return_value_policy to use
+
+2022-05-03  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #281 from nim65s/devel
+	unit tests: fix super() for python 2
+
+2022-05-03  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	unit tests: fix super() for python 2
+
+2022-05-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.3
+
+2022-04-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #280 from ManifoldFR/devel
+	numpy: avoid deprecated header
+
+2022-04-26  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	numpy: avoid deprecated header
+
+2022-04-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.2
+
+2022-04-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #279 from ManifoldFR/modify-block-test
+	Test: modify a matrix block through Python subclass
+
+2022-04-19  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	unittest: call from C++ puts arange() inside of block
+
+2022-04-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	test: fix
+
+	test: remove auto
+
+2022-04-19  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	unittest: use the right linspaced range
+
+	Merge branch 'modify-block-test' of github.com:ManifoldFR/eigenpy into modify-block-test
+
+	unittest: add test where block is edited from C++ function
+	isolates problem with conversion
+
+2022-04-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: fix type
+
+	test: add more test for Eigen::Ref
+
+	core: fix strides for Eigen::Ref
+
+	core: add new signature for call_PyArray_New
+
+2022-04-19  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] auto fixes from pre-commit.com hooks
+	for more information, see https://pre-commit.ci
+
+2022-04-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #278 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-04-19  ManifoldFR  <wilson.jallet@polytechnique.org>
+
+	unittest: test where subclass modifies input C++ matrix
+	* test fails, problem in stride ? only first column modified
+
+2022-04-18  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/mirrors-clang-format: v13.0.1 → v14.0.1](https://github.com/pre-commit/mirrors-clang-format/compare/v13.0.1...v14.0.1)
+	- [github.com/pre-commit/pre-commit-hooks: v4.1.0 → v4.2.0](https://github.com/pre-commit/pre-commit-hooks/compare/v4.1.0...v4.2.0)
+
+2022-04-14  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	Merge pull request #277 from nim65s/devel
+	ci: autoupdate devel instead of master
+
+2022-04-11  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	ci: autoupdate devel instead of master
+
+	Merge pull request #276 from stack-of-tasks/pre-commit-ci-update-config
+	[pre-commit.ci] pre-commit autoupdate
+
+2022-04-11  pre-commit-ci[bot]  <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+	[pre-commit.ci] pre-commit autoupdate
+	updates:
+	- [github.com/pre-commit/pre-commit-hooks: v4.1.0 → v4.2.0](https://github.com/pre-commit/pre-commit-hooks/compare/v4.1.0...v4.2.0)
+
+2022-04-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.1
+
+	Merge pull request #275 from jcarpent/devel
+	Expose const Eigen::Ref<const ... + update pre-commit + correctly export the project version
+
+	test: fix include reordering
+
+	cmake: set PROJECT_COMPATIBILITY_VERSION
+
+	cmake: sync submodule
+
+	pre-commit: apply on Python files
+
+	pre-commit: update
+
+	test/ref: test for const Eigen::Ref<const ...
+
+	core: expose by default for types const Eigen::Ref<const ...
+
+	core: fix allocate for const Eigen::Ref<const ...
+
+2022-04-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.7.0
+
+	Merge pull request #274 from jcarpent/devel
+	Apply pre-commit on all the project
+
+	core: fix pre-commit change
+
+	test: remove useless file
+
+	pre-commit: apply all
+	run `pre-commit run -a`
+
+	pre-commit: init
+
+	cmake: sync submodule
+
+2022-04-01  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #273 from jcarpent/devel
+	Export name types
+
+	geom: tiny fixes
+
+	core: add arg type info
+
+	python: simplify API
+
+	core: remove macro and use inline functions
+
+	core: add return type info
+
+2022-02-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.6.11
+
+	Merge pull request #272 from jcarpent/devel
+	Remove useless std::cout
+
+2022-02-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: comment std::cout
+
+2022-02-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #271 from jcarpent/devel
+	Fix memory issue with Quaternion::normalized
+
+2022-02-22  Justin Carpentier  <justin.carpentier@inria.fr>
+	    Wolfgang Merkt  <wxmerkt@users.noreply.github.com>
+
+	Apply suggestions from code review
+
+2022-02-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	quaternion: fix memory issue with Quaternion::normalized
+
+2022-02-21  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #269 from jcarpent/devel
+	Fix Quaternion constructor
+
+	quaternion: fix copy constructor
+
+	cmake: sync submodule
+
+2022-02-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #267 from wxmerkt/topic/debug-quaternion-initialisation-segfault
+	Fix quaternion initialisation segfault under -march=native
+
+2022-02-07  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	test_geometry: More output
+
+	Quaternion: Fix initialisation when built with -march=native
+	Relates to #231
+
+	Fix warnings
+
+2022-02-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.6.10
+
+	license: update year
+
+	Merge pull request #266 from jcarpent/devel
+	Fix RowMajor issues
+
+	test/matrix: text RowMajor case
+
+	map: fix RowMajor case
+
+2022-02-01  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #264 from stack-of-tasks/topic/ros2
+	Prepare ROS2 release
+
+	geometry: fix Quaternion init from Eigen::Ref
+
+2022-02-01  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	package.xml: Minor clean-up
+
+	[CI] Fix ROS2 build failure
+
+	[CI] Add ROS2 configs
+
+	user-type: Ignore cast warnings
+
+	Remove unnecessary dependency on ament_cmake
+
+	Register package in ament index
+
+2022-02-01  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: fix warning
+
+	core: fix cast warning
+
+	cmake: sync submodule
+
+2021-10-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.6.9
+
+	Merge pull request #263 from jcarpent/devel
+	Sync submodule cmake
+
+2021-10-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2021-10-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #262 from nim65s/devel
+	[CMake] FetchContent on missing submodule
+
+2021-10-26  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CI] configure with / without submodules
+
+	[CMake] FetchContent on missing submodule
+
+2021-09-11  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: change badge size
+
+2021-09-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #261 from jcarpent/devel
+	Remove useless setup
+
+	unittest: debug
+
+	core: fix NumpyEquivalentType
+
+2021-09-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	test: fix user_type for Windows
+
+	ci: add stubs generation on Windows
+
+	debug
+
+	Merge pull request #260 from jcarpent/devel
+	Fix stubgen
+
+	cmake: sync submodule
+
+2021-09-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.6.8
+
+	Merge pull request #259 from jcarpent/devel
+	Add generation of Python stubs
+
+	cmake: fix PYTHONPATH
+
+	cmake: change python lib name (to avoid conflicts)
+
+	python: remove useless license header
+
+	ci: set GENERATE_PYTHON_STUBS on Windows
+
+	cmake: try to enable Stubs on Windows
+
+2021-09-04  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ci: fix cache key
+
+	ci: use ccache
+
+	ci: set GENERATE_PYTHON_STUBS on Linux/OS X
+
+	cmake: GENERATE_PYTHON_STUBS OFF by default
+
+	python: add generation of Python stubs
+
+	cmake: sync submodule
+
+	cmake: add PYTHON_BUILD
+
+	Merge pull request #258 from jcarpent/devel
+	Additional doc fix
+
+	doc: fix python doc
+
+2021-09-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #257 from jcarpent/devel
+	Fix naming
+
+	cmake: sync submodule
+
+	core: fix arg name
+
+2021-08-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #256 from jcarpent/devel
+	Fix compatibility with Boost.Python >= 1.77
+
+	core: fix typedef
+
+	core: fix compatibility with Boost.Python >= 1.77
+
+	core: fix typedef
+
+2021-08-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #254 from nim65s/devel
+	badges: add PyPI
+
+	readme: remove useless badge
+
+2021-08-25  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	badges: add PyPI
+
+2021-08-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #253 from wxmerkt/topic/move-options-before-base-include
+	Move block to set OPTIONS before including base.cmake
+
+2021-08-24  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Move block to set OPTIONS before including base.cmake
+	Setting INSTALL_DOCUMENTATION OFF wasn't respected as it was overridden
+	in post-project.cmake which gets called upon setting PROJECT(). Moving
+	the settings prior to the include of base.cmake, it works as intended.
+
+2021-08-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	license: update copyright for Inria
+
+2021-08-19  Rohan Budhiraja  <proyan@users.noreply.github.com>
+
+	release: Update package.xml version to 2.6.7
+
+	[cmake] update
+
+2021-08-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #251 from proyan/devel
+	[user-type] get class object for type exposed through boost python
+
+2021-08-18  Rohan Budhiraja  <proyan@users.noreply.github.com>
+
+	[user-type] get class object for type exposed through boost python
+
+2021-08-13  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #250 from jcarpent/devel
+	Fix compilation warnings
+
+	ci: remove travis
+
+	all: fix compilation warnings
+
+	release: Update package.xml version to 2.6.6
+
+	cmake: sync submodule
+
+	ufunc: use Eigen algebra to compute dotfunc
+
+2021-08-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #246 from jcarpent/devel
+	Expose MINRES solver
+
+2021-08-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	test: change A matrix
+
+	test: relax
+
+	core: add missing include
+	Related to Eigen
+
+	test: add MINRES test
+
+	solvers: add MINRES
+
+	Merge pull request #245 from jcarpent/devel
+	Enhance support of Cholesky decomposition
+
+	cholesky: support solve with input matrices
+
+2021-08-04  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #244 from jcarpent/devel
+	Comment useless print
+
+	test/custom: comment useless print
+
+	Merge pull request #242 from jcarpent/devel
+	Enhance support of ufunc
+
+	test: fix user type test according to NumPy version
+
+2021-08-03  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: fix signature
+
+	cmake: sync submodule
+
+	test/user_types: enforce testing of matmul operation
+
+	core: handle matmul operation from NumPy
+
+	Merge pull request #241 from nim65s/topic/rpath
+	[CMake] set INSTALL_RPATH for python on linux
+
+2021-08-02  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CMake] set INSTALL_RPATH for python on linux
+	To avoid the need to set `LD_LIBRARY_PATH` when the
+	`CMAKE_INSTALL_PREFIX` is not a standard one.
+
+2021-07-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	release: Update package.xml version to 2.6.5
+
+	cmake: sync submodule
+
+	Merge pull request #240 from jcarpent/devel
+	Fix contruction of np.array from custom types
+
+	types: fix registration
+
+	core: export call_PyArray_RegisterCastFunc
+	Needed by Windows
+
+	core: enforce definition for APPLE systems
+
+	test: enhance testing of user types
+
+	types: add safe guard
+
+	core: add missing NumpyEquivalentType
+
+	register: change flags
+
+	register: add NPY_NEEDS_INIT
+
+	register: simplify adding of PyGenericArrType_Type
+
+	register: handle fill
+
+	register: add helper method to retrieve the PyArray_Descr
+
+	types: add possibility to register cast functions
+
+	types: use static_cast
+
+	types: add fill function
+
+	types: raise exception when needed
+
+	types: remove indent + add print
+
+	types: getitem should not use references
+
+2021-07-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	test: comment part of the test
+	Should be reintroduced for newer version of NumPy
+
+	test: only made some check for new version of NumPy
+
+	test/user-type: fix return type
+
+2021-07-23  Rohan Budhiraja  <proyan@users.noreply.github.com>
+
+	user-type: add unit test for fill()
+
+2021-07-20  Rohan Budhiraja  <proyan@users.noreply.github.com>
+
+	user-type.hpp: add doc for setitem and getitem + minor changes
+
+2021-07-17  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: add fillwithscalar method
+
+	core: add alignment value automatically deduced
+
+	test: fill seems not working
+
+	cmake: sync submodule
+
+	test: enforce testing of user type
+
+	user type: set additional fields
+
+	user type: add dtype property
+
+	user types: given type should inherit from np.generic
+
+2021-06-15  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #239 from jcarpent/devel
+	Fix issue for User Type conversion
+
+	cmake: sync submodule
+
+	core: fix check of user types
+
+	core: fix definition order
+
+	test: enforce user type
+
+2021-05-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+2021-05-25  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	break circular include (#237)
+	* include registration: add failing unit test
+	
+	* include registration: break circular include loop
+	
+	otherwise, when a user include directly this header without fwd.hpp, as
+	in the include.cpp regression test:
+	
+	Dans le fichier inclus depuis ../include/eigenpy/fwd.hpp:35,
+	                 depuis ../include/eigenpy/registration.hpp:9,
+	                 depuis ../unittest/include.cpp:7:
+	../include/eigenpy/expose.hpp: Dans la fonction « void eigenpy::expose() »:
+	../include/eigenpy/expose.hpp:27:9: erreur: « register_symbolic_link_to_registered_type » n'a pas été déclaré dans cette portée
+	   27 |     if(!register_symbolic_link_to_registered_type<T>())
+	      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	../include/eigenpy/expose.hpp:27:52: erreur: expected primary-expression before « > » token
+	   27 |     if(!register_symbolic_link_to_registered_type<T>())
+	      |                                                    ^
+	../include/eigenpy/expose.hpp:27:50: attention: le non logique est toujours appliqué au membre de gauche de la comparaison [-Wlogical-not-parentheses]
+	   27 |     if(!register_symbolic_link_to_registered_type<T>())
+	      |                                                  ^
+	../include/eigenpy/expose.hpp:27:54: erreur: expected primary-expression before « ) » token
+	   27 |     if(!register_symbolic_link_to_registered_type<T>())
+	      |                                                      ^
+
+2021-05-21  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #236 from jcarpent/devel
+	Additional fix
+
+	geometry: fix constructor from vector
+
+	geometry: fix default constructor
+
+2021-05-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #235 from jcarpent/devel
+	Fix constructors for Quaternion
+
+	geometry: fix constructors
+
+	Merge pull request #233 from jcarpent/devel
+	Fix quaternion static Identity constructor 
+
+	geometry: fix quaternion static Identity constructor
+
+2021-04-25  Wolfgang Merkt  <wxmerkt@users.noreply.github.com>
+
+	Add ROS-CI (#229)
+	* Add ROS-CI using GitHub Actions based on Industrial-CI
+	
+	* [CI] Rename ROS-CI
+
+2021-04-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #228 from jcarpent/devel
+	Add CI for OSX
+
+	core: fix user declaration according to new NumPy API 1.20
+
+	cmake: sync submodule
+
+	ci: add macos/linux via Conda
+
+2021-04-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #226 from nim65s/topic/warnings
+	Fix warnings
+
+2021-04-02  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CMake] add extension to fix CMP0115
+	fix:
+
+	CMake Warning (dev) at unittest/CMakeLists.txt:10 (ADD_LIBRARY):
+	  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+	  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+	  command to set the policy and suppress this warning.
+
+	  File:
+
+	    …/eigenpy/unittest/eigen_ref.cpp
+	Call Stack (most recent call first):
+	  unittest/CMakeLists.txt:33 (ADD_LIB_UNIT_TEST)
+	This warning is for project developers.  Use -Wno-dev to suppress it.
+
+2021-04-02  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	define locally BOOST_BIND_GLOBAL_PLACEHOLDERS
+	ref. https://github.com/stack-of-tasks/tsid/pull/129
+
+	Revert "[CMake] silence boost python warning on boost bind"
+	This reverts commit 3ae345655d647299cc93d087b9a8ed62f803331d.
+
+2021-03-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+2021-03-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #225 from jcarpent/devel
+	Expose boolean matrices
+
+2021-03-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: expose boolean matrices
+
+2021-01-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+	ros: update version
+
+	Merge pull request #221 from jcarpent/devel
+	Fix init call order
+
+2021-01-19  Gabriele Buondonno  <7643149+gabrielebndn@users.noreply.github.com>
+
+	[test_geometry] Test constructor from vector (#1)
+
+2021-01-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	geom: fix init call order
+	This is due to a bug in Boost.Python
+
+2021-01-04  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: update content
+
+2020-12-31  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #219 from jcarpent/devel
+	Add SWIG support
+
+	swig: add helper get_PySwigObject
+
+	core: add SWIG data object
+
+2020-12-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #218 from jcarpent/devel
+	Handle support of template specialization for exposing new types
+
+2020-12-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	cmake: sync submodule
+
+	core: add new signature to allocate Eigen matrices
+
+	core: fix template specialization
+
+	core: allows template specialization of EigenFromPy
+
+	core: allows template specialization of EigenToPy
+
+	test: print type code value
+
+	core: add inline
+
+	geometry: move overload to visitor
+
+2020-12-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #217 from jcarpent/devel
+	Move EIGENPY_MAKE_TYPEDEFS to a dedicated file
+
+	core: move EIGENPY_MAKE_TYPEDEFS to a dedicated file
+
+2020-12-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #216 from nim65s/devel
+	remove warnings
+
+2020-12-14  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CMake] silence boost python warning on boost bind
+	Boost 1.73 added a boring warning about deprecated use of boost bind,
+	which is still used by boost python.
+
+	As of Boost 1.75, this is still not fixed:
+	https://github.com/boostorg/python/pull/296
+	https://github.com/boostorg/python/pull/315
+
+2020-12-14  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CMake] update minimum version
+	Recent CMake versions added this warning:
+	CMake Deprecation Warning at CMakeLists.txt:6 (CMAKE_MINIMUM_REQUIRED):
+	  Compatibility with CMake < 2.8.12 will be removed from a future version of
+	  CMake.
+
+	And we are not compatible with CMake < 3.1:
+	ref https://github.com/jrl-umi3218/jrl-cmakemodules/issues/338
+
+2020-11-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #215 from jcarpent/devel
+	Comply with new CI rules
+
+	ci: update GitHub Action following new rules
+
+	cmake: sync submodule
+
+2020-11-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #214 from jcarpent/devel
+	Sync submodule CMake
+
+2020-11-09  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CI] use generated conf
+
+2020-11-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: set options for finding Boost
+
+	cmake: sync submodule
+
+2020-08-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: update Boost.Python search
+
+	cmake: sync submodule
+
+	Merge pull request #212 from jcarpent/devel
+	Sync submodule CMake and prepare new release 2.5.0
+
+	cmake: sync submodule
+
+2020-08-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+	ros: update version
+
+	Merge pull request #211 from jcarpent/devel
+	Add support for exporting Eigen::Ref to Python
+
+	test: test to-python for Eigen::Ref
+
+	core: add support of Eigen::Ref to Python
+
+	test: add test of PlainObjectBase feature
+
+	core: add PlainObjectBase support
+
+2020-08-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #209 from jcarpent/devel
+	Fix bug for non square matrix
+
+	core: swap dimensions if needed
+
+	core: add EIGENPY_UNUSED_VARIABLE macro
+
+	core: add option to swap dimensions in case of np.array of single dimension
+
+	core: add check_swap helper
+
+	core: add missing return
+
+	core: fix indent
+
+	test/matrix: extend test for non-square matrix
+
+	core: remove useless transpose()
+
+2020-08-17  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #207 from jcarpent/devel
+	Improve packaging
+
+2020-08-15  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: use PYTHON_SITELIB
+
+	cmake: sync submodule
+
+2020-08-03  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #205 from nim65s/devel
+	[CMake] fix build on Fedora
+
+2020-07-29  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CMake] fix build on fedora
+
+2020-07-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #204 from jcarpent/devel
+	Fix packaging issues
+
+	ros: update version
+
+	cmake: sync submodule
+
+	cmake: sync submodule
+
+2020-07-17  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+2020-07-15  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #203 from jcarpent/devel
+	Fix compilation issues with NumPy 1.19
+
+	core: fix argument according to the Numpy version
+
+	cmake: sync submodule
+
+	core: fix compilation issue with NumPy 1.19
+	Related to https://github.com/tensorflow/tensorflow/pull/40728
+
+2020-07-03  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #201 from nim65s/devel
+	[CMake] Add SUFFIX_SO_VERSION
+
+2020-07-02  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CMake] Add SUFFIX_SO_VERSION
+	fix #200
+
+2020-06-12  Wolfgang Merkt  <wxmerkt@users.noreply.github.com>
+
+	Update email address (#199)
+
+2020-06-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #198 from jcarpent/devel
+	Sync submodule
+
+2020-06-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ci: clean file
+
+	cmake: sync submodule
+
+	ci: start debugging
+
+	cmake: fix test PYTHONPATH
+
+	ci: set ctest Config
+
+2020-06-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ci: update config file
+
+	cmake: sync submodule
+
+2020-06-02  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #197 from jcarpent/devel
+	Clean CMake
+
+	cmake: clean file
+
+	cmake: sync submodule
+
+	Merge pull request #196 from wxmerkt/wxm-package-xml-compatibility
+	package.xml: Add exec_depend on catkin or ament_cmake
+
+2020-05-30  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	package.xml: Add exec_depend on catkin or ament_cmake
+	Required for packaging according to REP-136
+
+2020-05-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: update content
+
+	Merge pull request #194 from jcarpent/devel
+	Fix Windows export
+
+	core: remove useless export/import
+
+	core: change for DLLAPI to generic export/import
+
+2020-05-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #193 from jcarpent/devel
+	Make the packaging independant from pkg-config
+
+	ci: remove test on travis - no more supported
+
+	cmake: remove reference to pkg-config
+
+	ci: clean Windows conda build
+
+	cmake: use classic search for Eigen3
+
+2020-05-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #192 from jcarpent/devel
+	Remove compilation warning
+
+	core: avoid boring warning
+
+	ros: update version
+
+2020-05-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #191 from jcarpent/devel
+	Sync submodule CMake + enforce testing
+
+	core: export NumpyType
+
+	core: move NumpyType definition to .cpp
+
+	ci: test output on failure
+
+	cmake: sync submodule
+
+	ci: use ctest
+
+	core: fix cast
+
+	cmake: sync submodule
+
+	core: fix call to PyArray_Check
+
+	ci: add test on windows
+
+	test: test registration of a new type
+
+	cmake: sync submodule
+
+2020-05-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #185 from jcarpent/devel
+	Start exposition of complex Scalar types for autodiff
+
+2020-05-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: fix cast for Win32
+
+	core/register: make Register a pure singleton class
+
+	core: fix signature
+
+	core: move Python call to the dynamic lib
+
+	core/register: comment self used normally for Singleton
+
+	core: remove useless function
+
+	core: fix Win32 issue
+
+	cmake: sync submodule
+
+	test: add test for user types
+
+	core: add register file
+
+	core: add dotfunc
+
+	core/ufunc: add registration of Unary operators
+
+	core/ufunc: remove useless include
+
+	core/ufunc: rename macro
+
+	core/ufunc: add missing code input
+
+	core: move ufunc to a dedicated file
+
+	core: remove useless std::cout
+
+	core: allows the use of user types
+
+	core: remove getPyType, now in Register
+
+	core: add missing include
+
+	core: add first version of user-type registration
+
+	core: set default type to be NPY_USERDEF
+
+	core: add bool type_code
+
+	core: add new caller for Numpy functions
+
+	core: remove useless include
+
+	core: add helper to check if the current Scalar is a Numpy native type
+
+	core: fix windows issue
+
+	core: use const_cast
+
+	core: rely on getPyType function to get the PyTypeObject related to a Scalar type
+
+	core: add generic method getPyType
+
+	core: add getPyArrayType from Python helper
+	This is needed for Windows
+
+	core: change variable name to avoid confusion
+
+	core: extend current API to hanle allocation of arrays of PyTypeObject
+
+	core: set default Scalar type to be an NPY_OBJECT
+
+2020-04-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #189 from jcarpent/master
+	Sync submodule CMake
+
+	ros: update version
+
+	cmake: sync submodule
+
+	Merge pull request #187 from wxmerkt/wxm-prepare-for-focal
+	package.xml: Prepare for Ubuntu 20.04 / Python3
+
+2020-04-23  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Update to package format version 3
+
+	package.xml: Support for Ubuntu 20.04 / Python 3
+
+2020-04-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: update content
+
+	Merge pull request #186 from gleichdick/master
+	Fix LLT with current Eigen master branch
+
+2020-04-17  Bjar Ne  <gleichdick@users.noreply.github.com>
+
+	Fix LLT with current eigen master
+	Return type of LLT::rankUpdate was changed from LLT (value) to LLT& (reference)
+
+2020-04-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #184 from jcarpent/devel
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+2020-04-03  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #183 from jcarpent/devel
+	Improve packaging testing
+
+	travsi: add missing variable
+
+	test/packaging: add test for cmake old style
+
+	test/packaging: add test for pkgconfig
+
+	test/packaging: reorganization
+
+	Merge pull request #182 from wxmerkt/wxm-update-cmake
+	Update cmake to include new _LIBRARIES fix
+
+2020-04-03  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Update cmake to fix eigenpy_LIBRARIES regression
+
+2020-04-01  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #181 from jcarpent/devel
+	Return by ref when possible
+
+	core: return by ref when possible
+
+	Merge pull request #180 from jcarpent/devel
+	Fix destruction of objects 
+
+	core/geometry: make no sens to have QuatBase to Quat converter
+
+	core: rename RVALUE_FROM_PYTHON_DATA_INIT
+
+	core: make public RVALUE_FROM_PYTHON_DATA_INIT
+
+	core/geometry: specialize converter for Quaternion
+
+	core/geometry: fix include
+
+	cmake: sync submodule
+
+	core: add missing include
+
+2020-03-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #178 from jcarpent/devel
+	Sync submodule CMake
+
+	cmake: sync submodule
+
+2020-03-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #176 from jcarpent/devel
+	Sync submodule CMake
+
+	cmake: sync submodule
+
+2020-03-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #175 from jcarpent/devel
+	Fix packaging
+
+	cmake: fix project packaging
+
+	cmake: sync submodule
+
+	geom/quaternion: fix doc
+
+2020-03-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #173 from gabrielebndn/topic/fixwarnings
+	Remove silly warnings
+
+2020-03-20  Gabriele Buondonno  <gabriele.buondonno@wandercraft.eu>
+
+	Remove silly warnings
+
+2020-03-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #172 from jcarpent/devel
+	Authorize the sharing of memory between Eigen and Numpy
+
+	core: fix doc message
+
+	cmake: sync submodule
+
+	test: test new sharedMemory feature
+
+	core: add the possibility to share or not the memory between Numpy and Eigen
+
+	ros: update version
+
+2020-03-12  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: minor cosmetic change
+
+	Merge pull request #171 from jcarpent/devel
+	Remove eigenpy::Ref
+
+	cmake: sync submodule
+
+	core: remove eigenpy:Ref
+	No more useful
+
+2020-02-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #170 from nim65s/devel
+	[CI] update gitlab CI
+
+2020-02-28  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CI] update gitlab CI
+	from the generated configuration at
+	https://rainboard.laas.fr/project/eigenpy/.gitlab-ci.yml
+
+	This:
+	- add the doc-coverage target, to save the generated documentation an
+	  code-coverage results
+	- add the format target, to check the code formatting (allow_failure is
+	  activated here for now), ref https://github.com/gepetto/linters
+	- set 18.04 as the main platform (for now, this affects only format &
+	  doc-coverage target)
+	- allow automatic retries in case of runner failures
+	- drop 14.04 checks
+
+2020-02-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #169 from jcarpent/devel
+	Sync submodule CMake
+
+2020-02-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+	ros: update version
+
+	Merge pull request #168 from jcarpent/devel
+	Minor renaming
+
+	core: rename MapNumpy into NumpyMap
+
+	core: rename file
+
+	Merge pull request #167 from jcarpent/devel
+	Sync submodule cmake
+
+	cmake: sync submodule
+
+	Merge pull request #166 from jcarpent/devel
+	Add Windows CI
+
+	ci: add devel branch to Windows CI
+
+	core: fix cast
+
+	core: fix signatures
+
+	core: fix signatures
+
+	core: patch Win32
+	which is not able to retrieve EIGENPY_ARRAY_API when compiling other module because the symbol is not exported
+
+	readme: update content
+
+	Merge pull request #165 from seanyen/seanyen/ci
+	Adding GitHub workflow as Windows CI
+
+2020-02-27  seanyen  <seanyen@microsoft.com>
+
+	Add Windows CI.
+
+2020-02-26  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #164 from jcarpent/devel
+	core: patch Win32
+
+	core: fix cast
+
+	core: fix signatures
+
+	core: fix signatures
+
+	core: patch Win32
+	which is not able to retrieve EIGENPY_ARRAY_API when compiling other module because the symbol is not exported
+
+2020-02-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: update content
+
+	ros: update version
+
+	readme: update title
+
+	readme: update title
+
+	readme: update content
+
+	Merge pull request #163 from jcarpent/devel
+	Implement full support of Eigen::Ref
+
+	test: add test for Eigen::Ref
+
+	core: handle const Eigen::Ref<const MatType>
+
+	core: fix copy_if_non_const for const types
+
+	core: fix name
+
+	core: add is_aligned helper
+
+	core: fix issue with old Boost version
+
+	core: remove std::cout
+
+	core: check whether memory is aligned or not for Eigen::Ref
+
+	core: specify the alignement of data for Eigen::Ref
+
+	core: add template AlignmentValue to MapNumpy
+
+	core: add EIGENPY_NO_ALIGNMENT_VALUE
+
+	core: handle RowMajor types
+
+	license: update copyrights
+
+	core: full templatization of Eigen::Map
+
+	test: add library for eigen_ref
+
+	core: template specialization of EigenAllocator for Eigen::Ref<MatrixType>
+
+	core: add exposition of Eigen::Ref<MatrixType>
+
+	core: MapNumpy is now templatized by the Stride type
+
+	core: fix doc
+
+	core: add helper eigen_from_py_construct
+
+	core: change signature for allocate
+	It takes now a rvalue_from_python_storage<T>
+
+	core: update signature of init_matrix_or_array
+
+	core: fix assert
+
+	core: add template specialization for NumpyAllocator with Eigen::Ref
+
+	core: allows non dynamic Stride
+
+	core: fix EIGENPY_DEFAULT_ALIGNMENT_VALUE
+
+	test: rename ref test into eigenpy_ref
+
+2020-02-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #162 from jcarpent/devel
+	Factorization of the code
+
+	core: externalize defaut implementation for EigenFromPy
+
+	core: add helper np_type_is_convertible_into_scalar
+
+	core: factorization of the code
+
+	Merge pull request #161 from jcarpent/devel
+	Sync submodule CMake
+
+	cmake: sync submodule
+
+	Merge pull request #160 from jcarpent/devel
+	Add support of RETURN BY REFERENCE to Python
+
+	test: fix license
+
+	core: fix include
+
+	test: add Python test for return-by-ref
+
+2020-02-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	test/eigen: update test for returning reference
+
+	core: remote std::cerr
+
+	core: remove useless include
+
+	core: add converter to python for Eigen::Matrix
+
+	numpy: fix constness bug
+
+2020-02-21  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: add NumpyAllocator
+
+	core: move template specilization to the right place
+
+	core: reorder include
+
+	core: move EigenFromPy to a dedicated file
+
+	core: add dedicated EigenToPyConverter
+
+	core: move EigenToPy to a dedicated file
+
+	core: fix bug
+
+	core: rename EigenObjectAllocator into EigenAllocator
+
+	core: rename helper
+
+	core: move GET_PY_ARRAY_TYPE and rename it
+
+	core: create dedicated file for eigen allocation
+
+	core: add forward declaration of main classes
+
+	core: add dedicated file for FromTypeToType
+
+	core: add missing EIGENPY_DLLEXPORT
+
+	minor: fix indent
+
+	core: remove duplicates
+
+	core: import numpy only once
+
+	core: move NumpyEquivalentType to the dedicated file
+
+	core: add default exposition of RowMajor Eigen types
+
+	core: use singleton strategy to load numpy_array module
+
+	test: start implementing test for return by reference context
+
+	core: move function
+
+2020-02-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #159 from jcarpent/devel
+	Sync submodule CMake
+
+	travis: fix Python search
+
+	travis: fix packaging check
+
+	travis: set default python version
+
+	travis: fix warning
+
+	travis: fix numpy for Python3
+
+	travis: install numpy for Python3
+
+	travis: install numpy
+
+	travis: only install for current user
+
+	travis: fix language
+
+	travis: remove warnings
+
+	ros: update version
+
+	ci: update travis to also Python 3 correctly
+
+	cmake: sync submodule
+
+	Merge pull request #158 from jcarpent/devel
+	Template specialization for sized Eigen::{MatrixBase,EigenBase}
+
+	python: use original signature of is_approx
+
+	core: fix potential bug in rvalue_from_python_data
+
+	core: add more size for default Matrix base types
+
+2020-02-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: template specialization for sized Eigen::{MatrixBase,EigenBase}
+
+2020-02-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #155 from jcarpent/devel
+	core: fix bug with Win32
+
+2020-02-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: fix bug with Win32
+
+2020-02-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #154 from jcarpent/devel
+	core: revert previous settings
+
+	Revert "travis: do build in parallel"
+	This reverts commit 7a1fc895e380e141f74b815b759035c0c55f064f.
+
+	core: reduce the memory overload when compiling
+
+	core: add exposeType function to faciltate exposition of new Types
+
+	travis: do build in parallel
+
+	core: fix warning
+
+	travis: retrieve the whole git history
+
+	test/matrix: fix
+
+	core: improve conversion of Matrix to Vector
+
+2020-02-04  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: revert previous settings
+	A matrix with a single column should be considered as classic np.array
+
+2020-01-31  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	Merge pull request #153 from jcarpent/devel
+	Fix potential bug introduced in 2.0.0
+
+	test: fix test
+
+	cmake: sync submodule
+
+	core: add dedicated file for NumpyType
+
+	core: fix init bug for NumpyType
+
+	core: add guard
+
+	Merge pull request #152 from jcarpent/devel
+	Fix issues for Windows
+
+	core: add missing include for Windows
+
+	core: minor clean
+
+	core: minor fix
+
+2020-01-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #151 from jcarpent/devel
+	Fix issues when compiling in Release mode
+
+	core: remote the implicit conversion
+	It was causing useless memory allocation
+
+	python: fix issue when calling is_approx
+	There is a shift in memory that I cannot understand in release mode
+
+	ros: update version
+
+	Merge pull request #150 from jcarpent/topic/array_by_default
+	Switch to np.array type by default
+
+	Merge pull request #149 from jcarpent/devel
+	Remove ${PROJECT_NAME}_export 
+
+	test: fix when using Array by default
+
+	core: switch to np.array type by default
+
+	all: remove ${PROJECT_NAME}_export and use the one generated by the cmake module
+
+	Merge pull request #148 from jcarpent/devel
+	Expose Eigen::{LLT,LDLT,QR,EigenSolver,...}
+
+2020-01-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	decompositions: fix Eigen version
+
+	decompositions: fixe return type of LDLT::rankUpdate
+
+	decompositions: fix Eigen type
+
+	decompositions: fix issue with former version of Eigen
+
+	test: add test for Eigen::LDLT
+
+	decompositions: add LDLT decomposition
+
+	test: test LLT
+
+	decompositions: add LLT
+
+	test: fix accuracy
+
+	test: add test of Eigen::SelfAdjointEigenSolver
+
+	decompositions: expose Eigen::SelfAdjointEigenSolver
+
+	decompositions: fix doc
+
+	decompositions: expose DecompositionOptions
+
+	decompositions: fix issue with old Eigen versions
+
+	decompositions: fix call to compute
+
+	test: add test of EigenSolver
+
+	utils: add is_approx function and expose it
+
+	core: enable map from pyArray of dimension 1 to Eigen::Matrix
+
+	core: allows conversion of pyArray of dim 1 to Eigen::Matrix
+
+	decompositions: add EigenSolver
+
+	decompositions: start to add common matrix decompositions (LLT, LDLT, QR, etc)
+
+	utils: add name methods for Scalar types
+
+	core: add the implicit convertor to Eigen::EigenBase
+
+	core: move ComputationInfo to a dedicated file
+
+	Merge pull request #147 from jcarpent/devel
+	Add test for matrix 1x1
+
+	core: to not convert an Eigen::Matrix as a single dim np.array
+	if this matrix is not a vector at compile time!
+
+	map: change template type
+
+	test/matrix: add test for matrix1x1
+
+	Merge pull request #145 from jcarpent/devel
+	Sync submodule
+
+	travis: set PYTHON_EXECUTABLE
+
+2020-01-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2020-01-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #143 from jcarpent/devel
+	Support complex types + long double
+
+	test: fix issue with former Eigen version
+
+	test: add test of complex types
+
+	core: expose long double and complex long double types
+
+	core: expose complex default Eigen::Matrix
+
+	core: handle conversion of complex types and long double
+
+2020-01-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2020-01-10  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update version
+
+	cmake: sync submodule
+
+2019-12-19  gabrielebndn  <7643149+gabrielebndn@users.noreply.github.com>
+
+	Deprecate BUILD_UNIT_TESTS (#142)
+	* Default BUILD_TESTING to OFF
+	
+	* Deprecate BUILD_UNIT_TESTS and remove its usage
+	
+	* Revert "Default BUILD_TESTING to OFF"
+	
+	This reverts commit 102bf6fb30ce77bfe195b296482406b4b6a81b41.
+	
+	* [BUILD_UNIT_TESTS] Better deprecation message
+
+2019-12-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #141 from jcarpent/devel
+	core: add setter for seed of the random generator
+
+	core: add setter for seed of the random generator
+
+2019-12-10  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #140 from jcarpent/devel
+	Fix potential memory leak issue
+
+	core: use Target
+
+	core: use reinterpret_cast
+
+	core: fix possible memory leak
+
+	ros: update version
+
+	Merge pull request #139 from jcarpent/devel
+	cmake: handle Win32
+
+	version: add export of functions
+
+	cmake: handle Win32
+
+	Merge pull request #138 from jcarpent/devel
+	core: fix issue when converting form Matrix to Eigen::MatrixBase<Matrix>
+
+	core: fix issue when converting form Matrix to Eigen::MatrixBase<Matrix>
+
+2019-12-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: add target python
+
+	ros: update version
+
+	Merge pull request #137 from jcarpent/devel
+	Fix important bug in 1.6.10
+
+	cmake: do not build *.pyc on WIN32
+
+	core: fix bug
+	It is not possible to convert from MatTypeBase to MatType. I put some codes that might be changed.
+
+	ros: update version
+
+	Merge pull request #136 from jcarpent/devel
+	Improve conversion
+
+	geometry: make object implicitly_convertible
+
+	core: set enableEigenPySpecific to deprecated
+
+	core: use implicitly_convertible
+
+	Merge pull request #132 from jcarpent/devel
+	Improve packaging and export of the project
+
+2019-12-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #135 from jcarpent/topic/devel
+	Fix Python documentation
+
+	geometry: patch bugs in Boost.Python
+
+	geometry: remove useless include
+
+	geometry: fix Quaternion arguments
+
+	geometry: fix angle axis arguments
+
+2019-12-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #134 from nim65s/devel
+	[CI] use memmos instead of eur0c
+
+	gitlab: add uninstall
+
+2019-12-07  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CI] drop dubnium
+	which is an obsolete PAL distribution
+
+2019-12-07  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CI] use memmos instead of eur0c
+	One hard disk drive is dead in our "eur0c" server. The RAID array needs
+	it to be replaced. eur0c is 2 months out of warranty. We already had this
+	budgetized, but Marchés Publics says we can only buy from one supplier,
+	and this supplier has 21 days delivery delays for this HDD.
+
+	Let's use another server instead.
+
+2019-12-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #133 from jcarpent/topic/devel
+	python: fix exposion of the version
+
+	python: fix exposion of the version
+
+2019-12-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: add finding of the interpreter
+
+	travis: set CMAKE_MODULE_PATH
+
+	travis: fix path
+
+	cmake: sync submodule
+
+	travis: test CMake export
+
+	test: add test of the CMake packaging
+
+	cmake: add PROJECT_USE_KEYWORD_LINK_LIBRARIES
+
+	package: remove manual generation of eigenpyConfig.cmake
+
+	cmake: remove useless INCLUDE_DIRECTORIES
+
+	cmake: minor adjustement for export of the project
+
+	cmake: remove useless LINK_DIRECTORIES
+
+	Merge pull request #130 from jcarpent/devel
+	python: fix import
+
+	python: fix import
+
+2019-12-04  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #129 from jcarpent/devel
+	python: install lib inside site-packages/eigenpy
+
+	python: install lib inside site-packages/eigenpy
+
+2019-11-27  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #128 from jcarpent/devel
+	Towards a full CMake export of the project
+
+2019-11-25  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	git: restore build
+
+	core: fix header include
+
+	cmake: export project
+
+	cmake: improve packaging
+	Almost ready for generating packaging
+
+	cmake: sync submodule
+
+	test/python: test version fields
+
+	core/version: add version to the module
+
+	cmake: add inclusion of generated headers
+
+	core: remove useless include
+
+	core: revert proposition of loadNumpyArray
+	Not working so well
+
+	git: remove local ignore rules
+
+	core: move loadNumpyArray to the lib
+	no need to compile it again
+
+	cmake: sync submodule
+
+	gitlab: do not allow failure
+
+	ros: update package
+
+2019-11-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #125 from jcarpent/devel
+	Improve conversion checking
+
+	core: improve conversion checking
+
+2019-11-15  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #124 from jcarpent/devel
+	Allows to convert a np.array of dimension 1 into any Eigen::Vector Row or Col major
+
+	core: cosmetic change
+
+	core: change order policy for checking if a type can be converted
+
+	core: add isScalarConvertible
+
+	core: add initEigenObject runner
+
+	core: add getNumpy{Matrix,Array}Type + is{Matrix,Array} methods
+
+	Merge pull request #123 from jcarpent/devel
+	Fix another compilation issue on WIN32
+
+	cmake: fix compilation issue on WIN32
+
+	Merge pull request #122 from jcarpent/devel
+	cmake: fix compilation issue on WIN32
+
+	cmake: fix compilation issue on WIN32
+
+	package: update version
+
+	Merge pull request #121 from jcarpent/devel
+	cmake: sync submodule
+
+	cmake: sync submodule
+
+	Merge pull request #120 from wxmerkt/wxm-fix-install-directory
+	Fix install directory, address #116
+
+2019-11-15  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Install to full directory The pkg-config template uses the _FULL_ variables while the install happens without the prefix. This addresses #116
+
+2019-11-15  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: cosmetic change
+
+	readme: update title
+
+2019-11-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #119 from wxmerkt/wxm-silence-warnings
+	Silence warnings
+
+	Merge pull request #118 from jcarpent/devel
+	Expose getNumpyType
+
+2019-11-14  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Ignore Wconversion warnings
+
+	[cmake] sync
+
+2019-11-14  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	test/geometry: fix test
+
+	test/switch: test getNumpyType
+
+	core: add getNumpyType
+
+	python: fix doc
+
+	python: expose getNumpyType
+
+2019-11-13  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: increase version
+
+	Merge pull request #114 from seanyen/custom_sitelib_root
+	Add EIGENPY_SITELIB_ROOT to customize sitelib install location.
+
+2019-11-13  seanyen  <seanyen@microsoft.com>
+
+	trigger CI
+
+	Add EIGENPY_SITELIB_ROOT to customize sitelib install location.
+
+2019-11-13  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #113 from seanyen/ext_suffix_fix
+	Corrected PYTHON_EXT_SUFFIX usage.
+
+2019-11-13  seanyen  <seanyen@microsoft.com>
+
+	Corrected PYTHON_EXT_SUFFIX usage.
+
+2019-11-08  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	package: increase version
+
+	Merge pull request #111 from jcarpent/devel
+	Fix some operators in Geometry classes
+
+	cmake: sync submodule
+
+	geometry: fix isApprox
+
+	geometry: fix operator==
+
+	all: define struct call for common expose
+
+	Merge pull request #110 from jcarpent/devel
+	cmake: sync submodule
+
+	cmake: sync submodule
+
+	Merge pull request #109 from rhaschke/master
+	eigenpyConfig.cmake: find absolute library paths for all required libs
+
+2019-11-08  Robert Haschke  <rhaschke@techfak.uni-bielefeld.de>
+
+	eigenpyConfig.cmake: find absolute library paths for all required libs
+	As cmake expects absolute library paths, while pkgconfig provides lib names only (together with
+	LIBRARY_DIRS), one needs to find the full library path.
+
+	This fixes 7854c0f.
+
+2019-11-07  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	package: increase version
+
+	Merge pull request #107 from jcarpent/topic/quaternion
+	Update Quaternion class with more constructors
+
+	quaternion: update doc
+
+	quaternion: add init from Vector4
+
+	Merge pull request #106 from jcarpent/devel
+	cmake: sync submodule
+
+	cmake: sync submodule
+
+2019-11-06  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #101 from wxmerkt/wxm-add-cmake
+	Add CMake config using pkg-config internally
+
+2019-11-06  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Install eigenpyConfig.cmake for catkin backwards compatibility to fix MoveIt - MoveIt cannot make a new release right now with our bugfix due to people constraints - We cannot roll back due to project constraints - This adds a cmake config that internally uses the pkg-config. This will be replaced in the future with one with proper CMake targets
+
+2019-11-04  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Use Olivier's suggestions to export include directories
+
+	[cmake] Sync submodule
+
+	WIP: Add CMake config generation
+
+2019-10-30  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #105 from jcarpent/devel
+	cmake: sync submodule
+
+	cmake: sync submodule
+
+2019-10-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	ros: update package
+
+	cmake: fix compatibility issues
+
+	Merge pull request #103 from jcarpent/devel
+	Fix issue for pkg-config export of the lib
+
+	travis: use correct python version
+
+	debug
+
+	cmake: sync submodule
+
+	travis: increase Python versions check
+
+	cmake: handle correctly the lib extensions
+
+	cmake: sync submodule
+
+	Merge pull request #102 from jcarpent/devel
+	Improve support of CMake >= 3.0.0
+
+	cmake: improve integration with CMake >= 3.0.0
+
+	cmake: sync submodule
+
+2019-10-23  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #99 from wxmerkt/wxm-add-package-xml
+	Update package.xml to fix unstable build warnings
+
+2019-10-23  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Update package.xml to fix unstable build, update version number
+
+2019-10-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #97 from seanyen/ext_suffix
+	Follow-up fix for PYTHON_EXT_SUFFIX
+
+2019-10-22  seanyen  <seanyen@microsoft.com>
+
+	cmake: sync submodule
+
+2019-10-22  Sean Yen  <seanyen@microsoft.com>
+
+	Merge branch 'devel' into ext_suffix
+
+2019-10-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #96 from seanyen/windows_fix1
+	Fix MSVC compile errors
+
+2019-10-22  seanyen  <seanyen@microsoft.com>
+
+	Fixup for PYTHON_EXT_SUFFIX
+
+	Fix MSVC compile errors ...\eigenpy\src\eigenpy.cpp : fatal error C1128: number of sections exceeded object file format limit: compile with /bigobj
+
+2019-10-21  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #95 from jcarpent/devel
+	quaternion: fix exposure of toRotationMatrix
+
+	quaternion: fix doc
+
+	quaternion: fix exposure of toRotationMatrix
+
+2019-10-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #93 from jcarpent/devel
+	Update cmake
+
+	cmake: use default policy for APPLE systems
+
+	cmake: update to comply with new policy
+
+	cmake: sync submodule
+
+2019-10-15  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #92 from wxmerkt/wxm-expose-all-real-specialised-types
+	Expose all real-valued specialised Eigen types
+
+2019-10-15  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Expose all real-valued specialised Eigen types
+
+2019-09-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #91 from jcarpent/devel
+	travis: add bionic + make parallel
+
+	travis: add bionic + make parallel
+
+	Merge pull request #90 from jcarpent/devel
+	cmake: sync submodule
+
+	readme: add new badges + fix URL
+
+	cmake: sync submodule
+
+	Merge pull request #89 from jmirabel/devel
+	Add warnings when implicitly using numpy.matrix.
+
+2019-09-19  Joseph Mirabel  <jmirabel@laas.fr>
+
+	[travis] compile with Python 3.5
+
+	Add warnings when implicitly using numpy.matrix.
+
+2019-09-10  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: update download badge
+
+2019-09-09  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #85 from jcarpent/devel
+	Minor smoothing + sync submodule cmake
+
+	cmake: sync submodule
+
+	core: use bool instead of int for template parameter
+
+	core: rename convert into copy
+
+	core: remove indent
+
+	core: use GET_PY_ARRAY_TYPE when possible
+
+	core: change variable naming to pyArray
+
+2019-08-05  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: add badges
+
+2019-07-25  Carlos Mastalli  <carlos.mastalli@laas.fr>
+
+	[cleanup] Removed debugging messages (#82)
+
+2019-07-22  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: add credit to Loic Esteve
+
+2019-07-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #81 from jcarpent/devel
+	sync submodule cmake
+
+	gitlab: use make test
+
+	cmake: sync submodule
+
+2019-07-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #79 from jcarpent/devel
+	Improve efficiency + fix bug in Eigen::MatrixBase
+
+	cmake: fix dependency between targets
+
+	core: remove useless line
+
+	core: minor clean
+
+	core: change the way ti expose Eigen::MatrixBase<Derived>
+
+	core: improve readibility
+
+	core: add fix for bug in boost::rvalue_from_python_data
+
+	core: remove useless line
+
+	core: add registration static  method to EigenFromPy
+
+	core: improve copy from Python to Eigen::Matrix
+
+	core: change input argument name
+
+	core: call parent conversion
+
+	core: make convert more versatile
+
+	core: improve efficiency of memory mapping from Eigen to Python
+
+	core: improve indetation
+
+	core: fix namespace to allow external use of ENABLE_SPECIFIC_MATRIX_TYPE
+
+	cmake: remove useless line
+
+	cmake: change PROJECT description
+
+	Merge pull request #78 from jcarpent/devel
+	sync submodule cmake
+
+	cmake: sync submodule
+
+2019-07-17  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: reflect change in the CMake module
+
+	cmake: sync submodule
+
+	readme: add Sean Yen as contributor
+
+	readme: add Wolfgang as contributor
+
+	cmake: sync submodule
+
+	Merge pull request #76 from seanyen/windows_fix
+	Initial Windows bring-up
+
+2019-07-17  seanyen  <seanyen@microsoft.com>
+
+	Style fix.
+
+	Use GENERATE_EXPORT_HEADER
+
+	Fix windows/MSVC build.
+
+2019-07-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #74 from jcarpent/devel
+	cmake: sync submodule
+
+	cmake: sync submodule
+
+2019-07-15  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #73 from jcarpent/devel
+	cmake: sync submodule
+
+	cmake: sync submodule
+
+2019-07-12  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #72 from jcarpent/devel
+	Do not build test by default
+
+	cmake: fix ADD_TEST
+
+	cmake/test: change policy - do build TESTs by default
+
+	cmake: sync submodule
+
+	Merge pull request #69 from wxmerkt/wxm-update-eigenpy-for-3rd-party-release
+	Sync CMake submodule, make Python non-system include directories, add package.xml
+
+	ros: update maintainer email
+
+	Merge pull request #71 from jcarpent/topic/travis
+	Improve compatibility with travis
+
+	travis: sync submodule
+
+	travis: do not build with catkin support
+
+	travis: sync submodule
+
+	travis: sync submodule
+
+	cmake: check if the cmake module has been initialized
+
+2019-07-12  Wolfgang Merkt  <wxmerkt@users.noreply.github.com>
+
+	Re-add SYSTEM to include_directories
+
+2019-07-12  Wolfgang Merkt  <w.merkt@gmail.com>
+
+	Update package.xml for 1.5.3
+
+	Do not use SYSTEM include Python/NumPy (cf. #68)
+
+	Sync CMake submodule
+
+	Add package.xml for ROS-native release as third-party library
+
+2019-07-11  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #67 from jcarpent/devel
+	Sync cmake and improve travis test
+
+	travis: remove redundant APT dependency
+
+	travis: update number of OS tested
+
+	cmake: sync submodule
+
+2019-06-28  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #66 from jcarpent/devel
+	core: make np_type static thhrough a Singleton
+
+	test: add test for the dimensions checking
+
+	core: make np_type static thhrough a Singleton
+
+2019-06-24  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #64 from jcarpent/devel
+	core: fix dimensions of vecrtor for Array conversion
+
+	core: fix dimensions of vecrtor for Array conversion
+	Related to #63
+
+2019-06-20  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	Merge pull request #62 from jcarpent/devel
+	Add helper to expose types
+
+	all: use this new function to expose types
+
+	core: add function to easy expose a type
+
+	Merge pull request #61 from jcarpent/devel
+	Registration
+
+	registration: fix issue to handle correctly the symlink of the types
+
+	eigen: add symlink in the current scope of Quaternion and Angle Axis classes
+
+	registration: add function to register a symlink if the type is already registered
+
+	cmake: sync submodule
+
+2019-04-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: comment not used lines
+
+2019-04-16  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #59 from jcarpent/devel
+	Restoring previous removed code
+
+2019-04-16  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: correct path to the EigenPy librairie
+
+	core: restore previous NumpyAsMatrixType
+
+	cmake: sync submodule
+
+2019-04-16  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #58 from jmirabel/devel
+	Fix SEGV with Python 3.
+
+2019-04-15  Joseph Mirabel  <jmirabel@laas.fr>
+
+	Fix deletion of NumPy for Python 3 only.
+
+2019-04-11  Joseph Mirabel  <jmirabel@laas.fr>
+
+	Fix SEGV with Python 3.
+
+2019-03-09  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #57 from nim65s/topic/soabi
+	Set the main lib name according to PEP 3149
+
+2019-03-09  Guilhem Saurel  <guilhem.saurel@gmail.com>
+
+	[Cmake] use Python SOABI, ref #55
+
+2019-02-18  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #54 from jcarpent/devel
+	Change license to be BSD-2-Clause
+
+2019-02-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	all: change license to be BSD-2-Clause
+
+	cmake: sync submodule
+
+2019-02-18  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #53 from jcarpent/devel
+	submodules: use https address
+
+2019-02-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	submodules: use https address
+
+2019-02-08  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #51 from nim65s/devel
+	sync submodule, fix python interpreter & libs versions handling, fix #50
+
+2019-02-08  Guilhem Saurel  <guilhem.saurel@gmail.com>
+
+	sync submodule, fix python interpreter & libs versions handling, fix #50
+
+	sync submodule, fix #50
+
+2018-11-21  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #47 from jcarpent/devel
+	core: fix checking of dimensions
+
+2018-11-21  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	core: fix checking of dimensions
+
+2018-10-29  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	readme: update content
+
+2018-10-19  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #45 from jcarpent/topic/conversion
+	Handle conversion from Eigen::Matrix to numpy.array or numpy.matrix
+
+2018-10-19  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	conversion: add asmatrix converter
+
+	bench: increase switch benchmark
+
+	conversion: rename PyMatrixType in  NumpyType to reflect change
+
+2018-10-18  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #46 from jcarpent/topic/fix
+	Fix wrong message error
+
+2018-10-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	conversion: remove incorrect std::cerr
+	This follows issue #44.
+
+	bench: add benchmark of switch between np.array and np.matrix
+
+	test: add test on switch between np.array and np.matrix
+
+	lib: expose the new switching features
+
+	numpy: add helper for the switch
+
+	numpy: handle the convertion of Eigen::Matrix either as np.matrix or np.ndarray
+
+2018-10-18  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #43 from jmirabel/master
+	[CMake] Synchronize module
+
+2018-10-18  Justin Carpentier  <justin.carpentier@inria.fr>
+
+	cmake: sync submodule
+
+2018-10-18  Joseph Mirabel  <jmirabel@laas.fr>
+
+	[CMake] Synchronize module
+
+2018-09-13  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #39 from jviereck/patch-2
+	Add note for compiling eigenpy with python3 on macOS
+
+2018-09-13  Julian Viereck  <jviereck@tuebingen.mpg.de>
+
+	Add note for compiling eigenpy with python3 on macOS
+	Getting eigenpy (and pinocchio) to compile on macOS with python3 took me some effort. The required trick turned out to "only" add `-DPYTHON_EXECUTABLE=\`which python3\`` to the cmake argument.
+	
+	Do you think this is worth adding to the README.md/installation instructions? I am happy to provide something similar for pinocchio as well.
+
+2018-08-29  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #38 from jcarpent/devel
+	Fix compatibility issue with Eigen 3.3.5
+
+	[Exception] clean naming
+
+	[Preconditionner] The preconditionner has been fixed in Eigen 3.3.5
+
+	[CMake] Sync module cmake
+
+2018-07-19  Justin Carpentier  <jcarpent@laas.fr>
+
+	[Conversion] Handle correctly the case Eigen::Ref
+
+	[CMake] Sync module cmake
+
+2018-07-18  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #37 from jcarpent/devel
+	Register Eigen::MatrixBase
+
+2018-07-18  jcarpent  <jcarpent@laas.fr>
+
+	[Test] Add test of Eigen::MatrixBase
+
+	[Conversion] Register Eigen::MatrixBase
+
+2018-06-11  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #36 from jcarpent/devel
+	Handle zero-size vector
+
+2018-06-11  jcarpent  <jcarpent@laas.fr>
+
+	[Conversion] Handle zero-size vector
+
+2018-06-06  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #34 from nim65s/master
+	Python 3 tests & CI
+
+2018-06-06  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CI] travis doesn't support xenial / bionic, disable python 3
+	cf. https://github.com/travis-ci/travis-ci/issues/5821
+
+	Python 3 is tested by gitlab anyways.
+
+2018-06-06  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CI] allow failure on python3 < 3.6
+
+	[CI] also build in Debug
+
+	[Tests] rename test_eigenpy to test_matrix
+
+	[CMake] Sync module cmake
+
+2018-05-30  Guilhem Saurel  <guilhem.saurel@laas.fr>
+
+	[CI] add .gitlab-ci.yml
+
+	[CI] add python unittests
+
+	[Python] compatibility with 2.7 & 3.4
+
+2018-05-13  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Sync module cmake
+
+2018-05-12  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #33 from jcarpent/devel
+	Improve compatibility with Python3 and recent Boost versions >= 1.67.0
+
+2018-05-12  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Sync module cmake
+
+2018-05-11  jcarpent  <jcarpent@laas.fr>
+
+	[All] Add include/eigenpy dir
+
+	[CMake] Add namespace path to the headers
+
+	[CMake] Remove useless Python instructions
+
+	[CMake] Sync module cmake
+
+2018-05-10  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Sync module cmake
+
+2018-05-02  jcarpent  <jcarpent@laas.fr>
+
+	[Test] Increase ref test with Eigen::Ref example
+
+2018-05-01  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #30 from olivier-stasse/devel
+	Fix boost python detection problem to allow multiple python interpreters
+
+2018-05-01  Olivier Stasse  <ostasse@laas.fr>
+
+	[cmake] Modifies main CMakeLists.txt to allow 3.5 python if available.
+
+	[cmake] Synchronize.
+
+2018-04-16  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #29 from jcarpent/devel
+	Handle conversion between compatible scalar types
+
+2018-04-16  jcarpent  <jcarpent@laas.fr>
+
+	[Matrix] Handle conversion between compatible scalar types
+
+2018-04-16  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #28 from jcarpent/devel
+	Fix bug when converting matrix of dim 1x1
+
+2018-04-16  jcarpent  <jcarpent@laas.fr>
+
+	[Conversion] Fix bug when converting matrix of dim 1x1
+
+2018-04-05  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #27 from jcarpent/devel
+	Check registration of {Quaternion,AngleAxis} classes
+
+2018-04-05  jcarpent  <jcarpent@laas.fr>
+
+	[Geometry] Check registration of {Quaternion,AngleAxis} classes
+
+2018-04-05  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #26 from jcarpent/devel
+	Add {from,to}EulerAngles convertor
+
+2018-04-05  jcarpent  <jcarpent@laas.fr>
+
+	[Geometry] Add {from,to}EulerAngles convertor
+
+2018-01-17  jcarpent  <jcarpent@laas.fr>
+
+	[Exception] Fix bug when returning personalized exception
+
+2018-01-15  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Fix compatibility issue with BSD systems
+
+2018-01-14  Julian Viereck  <julian.viereck@gmail.com>
+
+	Need to initialize submodules before compiling.
+
+2018-01-11  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #23 from jcarpent/devel
+	Fix compatibility with Eigen 3.0.5 and 3.2.x
+
+	Fix compatibility with Eigen 3.0.5
+
+2018-01-11  jcarpent  <jcarpent@laas.fr>
+
+	[Core] Move stride to a dedicated file
+
+	[Core] Change minimal Eigen version
+
+	[CMake] Use "-isystem" for dependencies and remove useless lines
+
+2018-01-11  Justin Carpentier  <jcarpent@laas.fr>
+
+	[All] Fix compatibility with Eigen 3.2.x
+
+2018-01-10  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #22 from jcarpent/devel
+	Add support to Eigen::Ref
+
+2018-01-10  jcarpent  <jcarpent@laas.fr>
+
+	[Core] Fix compatibility with version of Eigen lower than 3.3.x
+
+2018-01-09  jcarpent  <jcarpent@laas.fr>
+
+	[Test] Add unit test for Ref
+
+	[Core] Register by default both MatType and Ref<MatType>
+
+	[Core] Update Map and Converter to be compatible with Eigen::Ref
+
+	[Core] Overload Eigen::Ref to comply with Numpy row-major
+
+	[All] Add alignment EIGENPY_DEFAULT_ALIGNMENT_VALUE
+
+	[Core] Remove useless include
+
+	[Core] Introduce dedicated struct for allocation
+
+	[Core] Use bp namespace shortcut
+
+	Fix identation
+
+	[Conversion] Simplify building of Eigen matrices
+
+	[All] Set deprecated enableEigenPySpecific with two template parameters
+
+2018-01-08  jcarpent  <jcarpent@laas.fr>
+
+	[Memory] Remove useless warning
+
+	[All] Set deprecated enableEigenPySpecific with two template parameters
+
+	[CMake] Add SYSTEM info to INCLUDE_DIRECTORIES macro
+	This option avoid warnings comming from dependencies
+
+2018-01-04  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #21 from jcarpent/devel
+	Clean code + fix bugs relative to alignment issues
+
+2018-01-04  jcarpent  <jcarpent@laas.fr>
+
+	[Geometry] Remove reference to QuaternionBase
+
+	[Geometry] Fix alignment issues
+
+	[Solvers] LeastSquareDiagonalPreconditioner has been fixed in Eigen 3.3.5
+
+	[CMake] Remove useless lines
+
+	[All] Remove unecessary UnalignedEquivalent types
+
+2017-12-18  jcarpent  <jcarpent@laas.fr>
+
+	[Solvers] LeastSquareDiagonalPreconditioner has been fixed in Eigen 3.3.5
+
+	[CMake] Remove useless lines
+
+2017-12-16  jcarpent  <jcarpent@laas.fr>
+
+	[All] Remove unecessary UnalignedEquivalent types
+
+2017-11-28  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #16 from jcarpent/devel
+	Make EigenPy a library for Python
+
+2017-11-28  jcarpent  <jcarpent@laas.fr>
+
+	[Python] Fix ambiguity in namespaces
+
+	[All] Handle old version of Eigen
+
+	[CMake] Simplify Python lib installation
+
+	[Preconditioners] Temporary disable LimitedBFGS
+
+	[Solvers] Clean whitespaces
+
+2017-10-27  jcarpent  <jcarpent@laas.fr>
+
+	[Solvers] Expose factorize method for preconditioners
+
+	[Solvers] Add scope solvers
+
+	[main] Remove namespace
+
+	[Solvers] Expose Conjugate Gradient with BFGS and Identity preconditioners
+
+	[Solvers] Add class name to expose for ConjugateGradient
+
+	[Solvers] Expose preconditioners
+
+	[CMake] Organize solvers submodule
+
+	[Cmake] Sync submodule
+
+2017-10-24  jcarpent  <jcarpent@laas.fr>
+
+	[Cmake] Correct lib name
+
+2017-10-18  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Use common IDE group name
+
+	[Solvers] Expose LSCG with a fix in the preconditionner
+
+	[Solvers] Expose iterative solvers of Eigen
+
+2017-10-17  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Make EigenPy a full Python library
+
+	[Geometry] Make Quaternion with newest versions of Eigen
+
+2017-10-12  jcarpent  <jcarpent@laas.fr>
+
+	[Unit test] Move unit tests in Python to unittest directory
+
+	[Git] Sync submodule cmake
+
+2017-06-09  jcarpent  <jcarpent@laas.fr>
+
+	[Travis] Add minimal scripts
+
+	[Travis] Add travis submodule
+
+2017-06-08  jcarpent  <jcarpent@laas.fr>
+
+	[Memory] Remove useless typename
+
+2017-01-05  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #15 from olivier-stasse/devel
+	This should remove the deprecated messages spanning all over the packages relying on pinocchio and thus on eigenpy.
+
+2017-01-05  Olivier Stasse  <ostasse@laas.fr>
+
+	Activate the NPY_NO_DEPRECATED_API only if numpy version is above 8
+
+	Makes eigenpy compliant with NUMPY 1.8 (on Ubuntu 14.04 LTS)
+
+2016-11-16  jcarpent  <jcarpent@laas.fr>
+
+	[C++] Fix bug in call of import_array
+
+2016-11-15  jcarpent  <jcarpent@laas.fr>
+
+	[Quaternion] Update API to follow old Eigen version API
+
+	[Quaternion] Remove depending version methods
+
+	[Quaternion] Use the right type from QuaternionBase
+
+	[C++] Update bindings of Angle Axis
+	- Update API to follow Eigen conventions
+	- Add Doc
+	- Remove unaligned conversions
+
+	[C++] Update bindings of Quaternion class
+	- Update API to follow Eigen conventions
+	- Add Doc
+	- Remove unaligned conversions
+
+	[C++] Remove useless inclusions
+
+2016-10-20  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #13 from jcarpent/devel
+	Correct warnings + introduce check or registration
+
+2016-10-19  jcarpent  <jcarpent@laas.fr>
+
+	[C++] Add check of registration at runtime
+
+	[C++] Register only FROM et TO MatType conversions
+	One should register the non aligned version if needed explicitely
+
+	[C++] Correct import_array return type
+
+2016-10-16  jcarpent  <jcarpent@laas.fr>
+
+	[C++] Remove useless warning in the cast of memory ptr
+
+	[C++] Remove warning in the offset computation
+
+	[CMake] Change HEADER variable name to avoid double installation of headers
+
+2016-10-03  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Set documentation optional
+
+	[C++] Make std::cerr only in debud mode for the check of convertibility
+
+2016-09-22  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #12 from jcarpent/devel
+	Fix bug in multiple dynamic link of the lib
+
+2016-09-22  jcarpent  <jcarpent@laas.fr>
+
+	[C++] Make PyMatrixType a singleton to avoid multiple instantiactions to avoid dynamic linking errors
+
+2016-08-04  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Sync submodule cmake
+
+2016-08-02  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #11 from jcarpent/devel
+	Improve the packaging of EigenPy
+
+2016-08-02  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Run simple unit test - just load compiled lib
+
+	[CMake] Rework unit tests
+
+	[CMake] Sync submodule cmake
+
+	[CMake] Clean dependancies section
+
+	[CMake] On APPLE, the library can become SHARED
+
+	[CMake] Handle the link against boost_python with the new cmake macro
+
+	[CMake] Set rpath policy for APPLE
+
+	[Git] Update gitignore
+
+2016-07-08  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #10 from aelkhour/scalar_type_template
+	Add Scalar template argument to UnalignedEquivalent struct.
+
+2016-07-07  Antonio El Khoury  <antonio.elkhoury@wandercraft.eu>
+
+	Add Scalar template argument to UnalignedEquivalent struct.
+	* It allows creating unaligned equivalent of Eigen matrix using a
+	  different scalar type. This can be useful when matrix types use
+	  single precision floats, whereas Numpy matrix types use double
+	  precision floats by default.
+	* Default template argument value is Matrix D scalar type to preserve
+	  backward-compatibility.
+
+2016-06-24  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #9 from jcarpent/master
+	Fix issue in .pc file
+
+2016-06-20  Mansard  <nmansard@laas.fr>
+
+	Added documentation in memory alignement.
+
+2016-05-27  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Append boost components to the .pc file
+
+	[CMake] Sync submodule cmake
+
+2016-02-09  jcarpent  <jcarpent@laas.fr>
+
+	[CMake] Sync submodule
+
+2016-01-18  Justin Carpentier  <jcarpent@laas.fr>
+
+	Merge pull request #7 from jcarpent/topic/aligned-struct
+	[C++] Add variadic macro to specialize boost python allocator for str…
+
+	Merge pull request #6 from jcarpent/devel
+	Enable alignment between Eigen matrix and Numpy matrix
+
+2016-01-06  jcarpent  <jcarpent@laas.fr>
+
+	[C++] Add variadic macro to specialize boost python allocator for struct and make data aligned in memory
+
+2015-12-28  jcarpent  <jcarpent@laas.fr>
+
+	Update gitignore
+
+	[C++][Cmake] Add missing copyright
+
+	[C++][Cmake] Add option to make eigen and numpy objects aligned
+
+2015-12-27  jcarpent  <jcarpent@laas.fr>
+
+	[C++] Remove useless typedef leading to warnings
+
+	[C++][Fix bug] Use the right constructor for fixed-row and fixed-col matrix
+
+2015-07-24  fvalenza  <florian.valenza@gmail.com>
+
+	Merge pull request #4 from jcarpent/devel
+	Fix bug under Mac OS X 
+
+2015-07-22  fvalenza  <florian.valenza@gmail.com>
+
+	Merge pull request #5 from jcarpent/topic/gcc-bug
+	[Bug fix] Remove the pragma line leading to error with gcc 4.8
+
+2015-07-21  jcarpent  <jcarpent@laas.fr>
+
+	[Bug fix] Remove the pragma line leading to error with gcc 4.8
+
+2015-07-16  jcarpent  <jcarpent@laas.fr>
+
+	[Fix Bug] Make the library static under Mac OS X to proper exposition of symbols
+
+	[Minor] Remove useless file and lines
+
+	[Bug fix] Add required depency NUMPY
+
+2014-11-07  Justin Carpentier  <justin.carpentier@laas.fr>
+
+	Modify include sequence in order to prevent compilations error
+
+2014-11-07  Mansard  <nmansard@laas.fr>
+
+	Integrated Justin's modif in CMake.
+
+2014-09-19  Mansard  <nmansard@laas.fr>
+
+	Minor revision.
+
+2014-09-16  Mansard  <nmansard@laas.fr>
+
+	Minor clean up.
+
+	tentatives to prevent ugly warnings from numpy.
+
+	Refactoring of src files. No serious modifs, only shape.
+
+	Convertion from Eigen to Numpy::Matrix.
+
+	Added a conversion to matrix type.
+
+	Clean warning and CMake.
+
+2014-07-24  Mansard  <nmansard@laas.fr>
+
+	Added the geometry module.
+
+2014-07-18  Mansard  <nmansard@laas.fr>
+
+	Added the possibility to bind types inheriting from Eigen.
+
+	Modified the packaging.
+
+2014-07-17  Mansard  <nmansard@laas.fr>
+
+	Correction of a bug in vector wrapping.
+
+2014-07-15  Mansard  <nmansard@laas.fr>
+
+	Completed beta version.
+
+	First complete version.
+
+2014-07-11  Mansard  <nmansard@laas.fr>
+
+	Version alpha.
+
+	IVIGIT.
+
+2014-07-07  Mansard  <nmansard@laas.fr>
+
+	IVIGIT.
