@@ -7,6 +7,7 @@ Ubuntu22.04源码编译ros noetic。（理论上20.04也是可以这么编译装
 
 ## 1.安装依赖
 ```
+export ROS_DISTRO=noetic # 注意屏蔽humble环境
 sudo apt install python3-rosdep python3-rosinstall-generator python3-vcstools python3-vcstool build-essential
 
 sudo apt install libqt5widgets5  qtcreator qtbase5-dev qt5-qmake cmake
